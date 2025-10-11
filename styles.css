@@ -384,52 +384,25 @@ h3 {
   background: linear-gradient(120deg, rgba(255, 122, 0, 0.08), rgba(255, 122, 0, 0.02));
 }
 
-.contact-grid {
-  display: grid;
-  gap: clamp(2rem, 4vw, 3rem);
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  align-items: start;
-}
-
-.contact-details {
-  display: grid;
-  gap: 0.5rem;
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-.contact-details a {
-  color: var(--color-text);
-  transition: color var(--transition-base);
-}
-
-.contact-details a:hover,
-.contact-details a:focus-visible {
-  color: var(--color-primary);
-}
-
 .contact-form {
   background: #fff;
   padding: clamp(2rem, 4vw, 2.5rem);
   border-radius: var(--radius-card);
   box-shadow: 0 30px 60px rgba(16, 24, 40, 0.12);
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
   border: 1px solid rgba(16, 24, 40, 0.05);
 }
 
-.contact-form label {
-  display: grid;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--color-text);
+.form-field {
+  position: relative;
+  display: block;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 0.75rem 1rem;
+  padding: 1.2rem 1rem 0.55rem;
   border-radius: 10px;
   border: 1px solid var(--color-border);
   font-family: var(--font-body);
@@ -443,6 +416,49 @@ h3 {
   border-color: rgba(255, 122, 0, 0.6);
   box-shadow: 0 0 0 4px rgba(255, 122, 0, 0.12);
   outline: none;
+}
+
+.form-field label {
+  position: absolute;
+  left: 1rem;
+  top: 1.05rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  pointer-events: none;
+  transition: top var(--transition-base), font-size var(--transition-base), color var(--transition-base), transform var(--transition-base);
+  background: #f8fafc;
+  padding-inline: 0.35rem;
+}
+
+.contact-form input:focus + label,
+.contact-form input:not(:placeholder-shown) + label,
+.contact-form textarea:focus + label,
+.contact-form textarea:not(:placeholder-shown) + label {
+  top: -0.4rem;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  background: #fff;
+}
+
+.form-field textarea {
+  min-height: 150px;
+  resize: vertical;
+  padding-top: 1.4rem;
+}
+
+.textarea-field label {
+  top: 1.15rem;
+}
+
+.contact-form textarea:focus + label,
+.contact-form textarea:not(:placeholder-shown) + label {
+  top: -0.5rem;
+}
+
+.required-asterisk {
+  margin-left: 0.25rem;
+  color: var(--color-primary);
 }
 
 .site-footer {

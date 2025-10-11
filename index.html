@@ -152,6 +152,10 @@
             <h3>Logistics</h3>
             <p>Route optimization, inventory visibility, and intelligent fulfillment.</p>
           </div>
+          <div class="industry-card">
+            <h3>EdTech</h3>
+            <p>Adaptive learning experiences, curriculum intelligence, and student success analytics.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -232,37 +236,33 @@
     </section>
 
     <section id="contact" class="section contact-section">
-      <div class="container contact-grid">
+      <div class="container">
         <div>
           <div class="section-heading">
             <p class="eyebrow">Contact Us</p>
             <h2>Let’s map your next intelligent advantage.</h2>
             <p>Share your challenge and we’ll design a path to measurable results — starting with a strategy workshop.</p>
           </div>
-          <div class="contact-details">
-            <a href="mailto:info@remilink.com">info@remilink.com</a>
-            <p>San Francisco • New York • Remote Worldwide</p>
-          </div>
         </div>
         <form class="contact-form" action="https://formsubmit.co/info@remilink.com" method="POST">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Taylor Morgan" required>
-          </label>
-          <label>
-            Work Email
-            <input type="email" name="email" placeholder="taylor@company.com" required>
-          </label>
-          <label>
-            Organization
-            <input type="text" name="organization" placeholder="Acme Co." required>
-          </label>
-          <label>
-            Project goals
-            <textarea name="message" rows="4" placeholder="Tell us about the outcomes you’re targeting." required></textarea>
-          </label>
+          <div class="form-field">
+            <input type="text" id="contact-name" name="name" placeholder=" " required>
+            <label for="contact-name">Name<span class="required-asterisk">*</span></label>
+          </div>
+          <div class="form-field">
+            <input type="email" id="contact-email" name="email" placeholder=" " required>
+            <label for="contact-email">Work Email<span class="required-asterisk">*</span></label>
+          </div>
+          <div class="form-field">
+            <input type="text" id="contact-organization" name="organization" placeholder=" " required>
+            <label for="contact-organization">Organization<span class="required-asterisk">*</span></label>
+          </div>
+          <div class="form-field textarea-field">
+            <textarea id="contact-message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="contact-message">Project goals<span class="required-asterisk">*</span></label>
+          </div>
           <input type="hidden" name="_captcha" value="false">
-          <button type="submit" class="cta">Book a strategy call</button>
+          <button type="submit" class="cta">Send</button>
         </form>
       </div>
     </section>
@@ -280,6 +280,7 @@
         <a href="#case-studies">Case Studies</a>
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/company/remilink" target="_blank" rel="noopener">LinkedIn</a>
       </div>
       <div class="footer-meta">
         <p>&copy; <span id="year"></span> Remilink. All rights reserved.</p>
