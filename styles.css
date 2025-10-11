@@ -384,6 +384,24 @@ h3 {
   background: linear-gradient(120deg, rgba(255, 122, 0, 0.08), rgba(255, 122, 0, 0.02));
 }
 
+.contact-layout {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: start;
+}
+
+.contact-copy {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.contact-subtext {
+  margin: 0;
+  color: var(--color-muted);
+  max-width: 520px;
+}
+
 .contact-form {
   background: #fff;
   padding: clamp(2rem, 4vw, 2.5rem);
@@ -392,6 +410,7 @@ h3 {
   display: grid;
   gap: 1.25rem;
   border: 1px solid rgba(16, 24, 40, 0.05);
+  width: 100%;
 }
 
 .form-field {
@@ -429,6 +448,9 @@ h3 {
   transition: top var(--transition-base), font-size var(--transition-base), color var(--transition-base), transform var(--transition-base);
   background: #f8fafc;
   padding-inline: 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .contact-form input:focus + label,
@@ -459,6 +481,23 @@ h3 {
 .required-asterisk {
   margin-left: 0.25rem;
   color: var(--color-primary);
+}
+
+.optional-note {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+@media (min-width: 960px) {
+  .contact-layout {
+    grid-template-columns: minmax(320px, 1.1fr) minmax(360px, 1fr);
+  }
+
+  .contact-form {
+    max-width: 520px;
+    justify-self: end;
+  }
 }
 
 .site-footer {

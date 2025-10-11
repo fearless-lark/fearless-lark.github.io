@@ -30,7 +30,7 @@
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
-      <a class="cta" href="#contact">Estimate project</a>
+      <a class="cta" href="#contact">Estimate Project</a>
     </div>
   </header>
 
@@ -44,9 +44,9 @@
             Remilink designs, architects, and delivers end-to-end AI solutions that translate ambition into measurable growth.
             We make complex innovation accessible, reliable, and profoundly effective for visionary teams.
           </p>
-          <p>
+          <!-- <p>
             Our mission is to empower mid-sized organizations with future-ready AI that creates a decisive competitive edge, guided by core values of expertise, excellence, confidence, trustworthiness, and integrity.
-          </p>
+          </p> -->
           <div class="hero-actions">
             <a class="cta" href="#services">Explore Services</a>
             <a class="ghost-link" href="#case-studies">View Results</a>
@@ -58,8 +58,8 @@
             <span class="metric-label">AI initiatives delivered</span>
           </div>
           <div class="metric-card">
-            <span class="metric">0.01%</span>
-            <span class="metric-label">Engineering talent benchmark</span>
+            <span class="metric">Top 0.001%</span>
+            <span class="metric-label">Engineering excellence worldwide</span>
           </div>
           <div class="metric-card">
             <span class="metric">4.9/5</span>
@@ -237,33 +237,36 @@
 
     <section id="contact" class="section contact-section">
       <div class="container">
-        <div>
-          <div class="section-heading">
-            <p class="eyebrow">Contact Us</p>
-            <h2>Let’s map your next intelligent advantage.</h2>
-            <p>Share your challenge and we’ll design a path to measurable results — starting with a strategy workshop.</p>
+        <div class="contact-layout">
+          <div class="contact-copy">
+            <div class="section-heading">
+              <p class="eyebrow">Contact Us</p>
+              <h2>Let’s map your next intelligent advantage.</h2>
+              <p>Share your challenge and we’ll design a path to measurable results — starting with a strategy workshop.</p>
+              <!-- <p>Expect a seasoned partner to join the conversation — ready with relevant case studies, proven playbooks, and a plan for measurable value in the first 90 days.</p> -->
+            </div>
           </div>
+          <form class="contact-form" action="https://formsubmit.co/info@remilink.com" method="POST">
+            <div class="form-field">
+              <input type="text" id="contact-name" name="name" placeholder=" " required>
+              <label for="contact-name">Name<span class="required-asterisk">*</span></label>
+            </div>
+            <div class="form-field">
+              <input type="email" id="contact-email" name="email" placeholder=" " required>
+              <label for="contact-email">Work Email<span class="required-asterisk">*</span></label>
+            </div>
+            <div class="form-field">
+              <input type="text" id="contact-organization" name="organization" placeholder=" ">
+              <label for="contact-organization">Organization</label>
+            </div>
+            <div class="form-field textarea-field">
+              <textarea id="contact-message" name="message" rows="4" placeholder=" "></textarea>
+              <label for="contact-message">Project goals</label>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="cta">Send</button>
+          </form>
         </div>
-        <form class="contact-form" action="https://formsubmit.co/info@remilink.com" method="POST">
-          <div class="form-field">
-            <input type="text" id="contact-name" name="name" placeholder=" " required>
-            <label for="contact-name">Name<span class="required-asterisk">*</span></label>
-          </div>
-          <div class="form-field">
-            <input type="email" id="contact-email" name="email" placeholder=" " required>
-            <label for="contact-email">Work Email<span class="required-asterisk">*</span></label>
-          </div>
-          <div class="form-field">
-            <input type="text" id="contact-organization" name="organization" placeholder=" " required>
-            <label for="contact-organization">Organization<span class="required-asterisk">*</span></label>
-          </div>
-          <div class="form-field textarea-field">
-            <textarea id="contact-message" name="message" rows="4" placeholder=" " required></textarea>
-            <label for="contact-message">Project goals<span class="required-asterisk">*</span></label>
-          </div>
-          <input type="hidden" name="_captcha" value="false">
-          <button type="submit" class="cta">Send</button>
-        </form>
       </div>
     </section>
   </main>
