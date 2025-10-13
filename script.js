@@ -86,3 +86,84 @@ const enableSmoothScroll = () => {
 };
 
 enableSmoothScroll();
+
+const contactForm = document.querySelector('.contact-form');
+const contactSubmitButton = contactForm ? contactForm.querySelector('button[type="submit"]') : null;
+
+if (contactForm && contactSubmitButton) {
+  contactForm.setAttribute('novalidate', '');
+
+  const successOverlay = document.createElement('div');
+  successOverlay.className = 'form-success-overlay';
+  successOverlay.innerHTML = `
+    <div class="form-success-content" role="status" aria-live="polite">
+      <div class="form-success-icon" aria-hidden="true">
+        <svg viewBox="0 0 52 52" focusable="false">
+          <circle cx="26" cy="26" r="25" fill="none"></circle>
+          <path d="M16 27.5l6 6L36 20" fill="none"></path>
+        </svg>
+      </div>
+      <h3>Message received</h3>
+      <p>Thanks for your message. We'll reach out soon.</p>
+    </div>
+  `;
+  successOverlay.setAttribute('hidden', '');
+  contactForm.appendChild(successOverlay);
+
+  const showSubmittingState = () => {
+    contactSubmitButton.disabled = true;
+    contactSubmitButton.dataset.loading = 'true';
+  };
+
+  const resetSubmittingState = () => {
+    contactSubmitButton.disabled = false;
+    delete contactSubmitButton.dataset.loading;
+  };
+
+  const showSuccessOverlay = () => {
+    successOverlay.removeAttribute('hidden');
+    requestAnimationFrame(() => {
+      successOverlay.dataset.visible = 'true';
+    });
+  };
+
+  const handleError = () => {
+    resetSubmittingState();
+    contactSubmitButton.textContent = 'Try again';
+    setTimeout(() => {
+      contactSubmitButton.textContent = 'Send';
+    }, 4000);
+  };
+
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (!contactForm.checkValidity()) {
+      contactForm.reportValidity();
+      return;
+    }
+
+    showSubmittingState();
+
+    try {
+      const formData = new FormData(contactForm);
+      const response = await fetch('https://formsubmit.co/ajax/72aaac45fc766c4437fad8eb939e8683', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Submission failed');
+      }
+
+      contactForm.reset();
+      resetSubmittingState();
+      showSuccessOverlay();
+    } catch (error) {
+      handleError();
+      console.error('Contact form submission failed', error);
+    }
+  });
+}
