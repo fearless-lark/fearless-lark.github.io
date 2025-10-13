@@ -89,9 +89,14 @@ enableSmoothScroll();
 
 const contactForm = document.querySelector('.contact-form');
 const contactSubmitButton = contactForm ? contactForm.querySelector('button[type="submit"]') : null;
+const contactEndpoint = contactForm ? contactForm.dataset.endpoint : null;
 
-if (contactForm && contactSubmitButton) {
+if (contactForm && contactSubmitButton && contactEndpoint) {
   contactForm.setAttribute('novalidate', '');
+  contactForm.removeAttribute('action');
+  const ajaxEndpoint = contactEndpoint.includes('/ajax/')
+    ? contactEndpoint
+    : contactEndpoint.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
 
   const successOverlay = document.createElement('div');
   successOverlay.className = 'form-success-overlay';
@@ -137,6 +142,7 @@ if (contactForm && contactSubmitButton) {
 
   contactForm.addEventListener('submit', async (event) => {
     event.preventDefault();
+    event.stopImmediatePropagation();
     if (!contactForm.checkValidity()) {
       contactForm.reportValidity();
       return;
@@ -146,7 +152,7 @@ if (contactForm && contactSubmitButton) {
 
     try {
       const formData = new FormData(contactForm);
-      const response = await fetch('https://formsubmit.co/ajax/72aaac45fc766c4437fad8eb939e8683', {
+      const response = await fetch(ajaxEndpoint, {
         method: 'POST',
         body: formData,
         headers: {
