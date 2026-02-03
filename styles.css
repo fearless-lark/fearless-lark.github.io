@@ -137,6 +137,20 @@ h3 {
   text-transform: uppercase;
 }
 
+.brand-gradient {
+  background: linear-gradient(90deg, #000000 0%, #000000 10%, #ff7a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.site-header .logo {
+  background: linear-gradient(90deg, #000000 0%, #000000 10%, #ff7a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .nav {
   display: flex;
   align-items: center;
