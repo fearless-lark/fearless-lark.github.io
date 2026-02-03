@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Reliable LLM Agent Workflows | REMILINIK</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="../favicon_io/site.webmanifest">
+  <meta name="description" content="How REMILINIK engineers production-grade LLM agents with clear policies, orchestration, and guardrails that keep systems safe, observable, and scalable.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="../index.html#top">REMILINIK</a>
+      <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav" id="primary-navigation">
+        <ul class="nav-list">
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../index.html#llm-agentic">LLM Platforms</a></li>
+          <li><a href="../index.html#industries">Industries</a></li>
+          <li><a href="../index.html#case-studies">Case Studies</a></li>
+          <li><a href="../index.html#blog">Blog</a></li>
+          <li><a href="../index.html#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="../index.html#contact">Estimate Project</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="article-hero">
+      <div class="container article-header">
+        <p class="eyebrow">Blog</p>
+        <h1>Building reliable LLM agent workflows</h1>
+        <p class="lead">Agentic systems promise step-change automation, but production success requires disciplined design: clear intents, guarded tool use, stateful orchestration, and continuous evaluation.</p>
+        <div class="article-meta">
+          <span>Published: February 3, 2026</span>
+          <span>Reading time: 8 minutes</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container article-content">
+        <p>Generative models are now capable of more than answering questions—they can plan, route, and act. Yet the gap between a promising prototype and a dependable production agent remains wide. At REMILINIK, we engineer LLM platforms and agentic workflows with the same rigor as any mission-critical system: policy-first design, measurable quality gates, and resilient operations.</p>
+
+        <h2>Principles we use to ship safely</h2>
+        <ul>
+          <li><strong>Intent clarity first:</strong> codify what the system is allowed to do, for whom, and under which constraints before choosing a model.</li>
+          <li><strong>Guarded autonomy:</strong> pair tool-calling agents with policy libraries, sandboxing, and escalation paths so automation never outruns safety.</li>
+          <li><strong>Observable by default:</strong> log decisions, inputs, and tool results with trace identifiers to enable replay, debugging, and compliance.</li>
+          <li><strong>Evaluation as code:</strong> treat prompts, routing logic, and flows as versioned artifacts with CI pipelines and regression suites.</li>
+        </ul>
+
+        <h2>A reference WBS for a production agent</h2>
+        <p>Below is a condensed work breakdown structure we use when delivering agentic systems. It removes any product-specific details but shows the rigor needed to reach reliability:</p>
+        <ol>
+          <li><strong>Environment &amp; governance:</strong> repo policies, branching and merge rules, coding standards, and secure secret handling; CI with baseline CD.</li>
+          <li><strong>Intent detection &amp; routing:</strong> design intents (search, clarification, chat), craft system instructions, and route requests accordingly.</li>
+          <li><strong>Rewriter module:</strong> validate user input, normalize abbreviations and typos, handle slang, unify languages, and expand queries when beneficial.</li>
+          <li><strong>Entity extraction:</strong> isolate critical entities (IDs, categories, attributes) for downstream state tracking.</li>
+          <li><strong>State management:</strong> maintain conversational memory, track entity states, and implement clarification loops with explicit handoffs.</li>
+          <li><strong>Data preparation:</strong> collect and normalize catalog data, categories, and cross-references needed for retrieval.</li>
+          <li><strong>Semantic search:</strong> select and evaluate embedders, preprocess knowledge graphs, compare embeddings, and define ambiguity handling policies.</li>
+          <li><strong>Guardrails:</strong> integrate safety layers, author policy specifications, and defend against hallucinations.</li>
+          <li><strong>Response formulation:</strong> assemble results, propose human handoff when confidence drops, and align messaging tone.</li>
+          <li><strong>Quality &amp; evaluation:</strong> build test sets, automate metrics, and run regression harnesses for every model, prompt, and policy change.</li>
+        </ol>
+
+        <h2>How this shows up in delivery</h2>
+        <p>In recent engagements, these practices produced agentic systems that triage complex requests, enrich them with retrieval, and call internal tools without compromising safety. Key ingredients include:</p>
+        <ul>
+          <li>Multi-agent topologies with a dedicated router, a rewriter, and task-specific actors.</li>
+          <li>Policy packs that govern tool access, PII handling, and escalation thresholds.</li>
+          <li>Offline and online evaluation harnesses that score intent accuracy, extraction quality, tool success, and user satisfaction.</li>
+          <li>Roll-forward/rollback playbooks with telemetry for latency, cost, and failure modes.</li>
+        </ul>
+
+        <div class="article-callout">
+          <strong>What leaders should ask</strong>
+          <ul>
+            <li>Do we have written policies for what agents may and may not do?</li>
+            <li>Can we replay any interaction with full context, tool calls, and prompts?</li>
+            <li>Are guardrails and evaluations part of CI/CD, not an afterthought?</li>
+          </ul>
+        </div>
+
+        <h2>Where to start</h2>
+        <p>We typically begin with a two- to four-week feasibility sprint that establishes intents, designs the agent topology, sets guardrails, and builds an evaluation harness. From there, we iterate through instrumented pilots that validate safety, quality, and ROI before scaling.</p>
+
+        <div class="article-cta">
+          <h2>Design your next agent with REMILINIK</h2>
+          <p>Whether you need a retrieval-augmented copilot, a workflow orchestrator, or a safety-hardened automation layer, we can help you ship it with confidence.</p>
+          <a class="cta" href="../index.html#contact">Talk to our engineers</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="logo" href="../index.html#top">REMILINIK</a>
+        <p>We combine elite engineering and human-centered design to make AI accessible, reliable, and transformative. Our vision is to become the most trusted AI implementation partner for mid-sized businesses worldwide.</p>
+      </div>
+      <div class="footer-links">
+        <a href="../index.html#services">Services</a>
+        <a href="../index.html#industries">Industries</a>
+        <a href="../index.html#case-studies">Case Studies</a>
+        <a href="../index.html#blog">Blog</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="https://www.linkedin.com/company/remilink" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="footer-meta">
+        <p>&copy; <span id="year"></span> REMILINIK. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
