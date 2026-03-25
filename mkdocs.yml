@@ -1,0 +1,39 @@
+site_name: Remilink Documentation
+docs_dir: docs
+site_dir: mkdocs_site
+dev_addr: 127.0.0.1:8001
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.top
+    - navigation.path
+  palette:
+    scheme: default
+    primary: orange
+    accent: white
+  # font:
+  #   text: Open Sans
+  #   code: Roboto Mono
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; Remilink
+
+nav:
+  - Home: index.md
+  - Action Plan: Remilink_ActionPlan.md
+  - Foundation: Remilink_FOUNDATION.md
+  - Founder Brief: Remilink_FounderBrief.md
+  - Strategy: Remilink_Strategy.md
+  - AI SMM:
+      - Telegram to LinkedIn Content Pipeline: 'ai_smm/Telegram-to-LinkedIn content pipeline.md'
+      - LinkedIn Voice Drafting System Feedback: ai_smm/linkedin_voice_drafting_system_feedback.md
+  - Design:
+      - Design Brief: design/DESIGN_BRIEF.md
+      - Linear: design/LINEAR.md
+      - PRD: design/PRD.md
