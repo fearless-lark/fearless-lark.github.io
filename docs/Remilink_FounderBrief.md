@@ -1,4 +1,25 @@
+---
+title: "[CODEX] Remilink Founder Brief"
+---
+
 # What the Remilink Founder Must Think Through and Provide to the Development Team
+
+## Current Status
+
+This document remains the canonical question inventory, but it is no longer the only place to look for answers.
+
+Use these tracked docs first:
+
+- [`docs/founder-inputs/index.md`](founder-inputs/index.md) for the structured founder-input source of truth
+- [`docs/founder-inputs/open-questions.md`](founder-inputs/open-questions.md) for unresolved items
+- [`docs/WORKING_CONTEXT.md`](WORKING_CONTEXT.md) for the current project state
+
+### Current answer state
+
+- **Substantially answered or partially answered**: company thesis, AI-native stance, delivery model, pricing shape, lead handling, primary CTA, content philosophy, founder background, competitor observations
+- **Still weak or unresolved**: proof sourcing, exact company-size target, final service labels, exact pricing-display strategy, team-presentation wording, EdTech depth, full sales pipeline, complete competitor set
+
+Treat this brief as the checklist the founder-input pages are answering against.
 
 No developer can invent this for you. The team can build anything — but they cannot decide *what your company is and who you sell to*.
 
@@ -158,7 +179,7 @@ The team needs to know what raw material exists. Rewriting existing content is 3
 Answer directly:
 
 - The current site lists 8 industries (Financial Services, Healthcare, Manufacturing, Retail, Professional Services, Oil & Gas, Logistics, EdTech). **Have you actually worked in all of them?**
-- The PRD proposes focusing on 3: Manufacturing, E-commerce, EdTech. Is that the right call? Or is there an industry you can't drop?
+- The current working direction is E-commerce first, security-sensitive / in-house AI second, and EdTech as a cautious secondary area. Is that the right public framing? Or is there an industry/context that should replace one of these?
 - Is there an industry where you have the most case studies and depth?
 - Is there an industry you're deliberately targeting (even if case studies are thin so far)?
 
@@ -187,7 +208,7 @@ Current site — do you have analytics?
 - Do you know how many visitors per month? Where they come from? How many inquiries?
 - How will you know the new site performs better than the old one?
 
-If there's no analytics — that's fine, but it needs to be set up at launch. Without measurement, every content decision is a guess.
+If there's no analytics — that's fine, but it should be set up at launch or immediately afterward. Without measurement, every content decision is a guess.
 
 ---
 

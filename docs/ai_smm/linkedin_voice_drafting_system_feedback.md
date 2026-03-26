@@ -1,3 +1,7 @@
+---
+title: "[CODEX] LinkedIn Voice Drafting System Feedback"
+---
+
 # LinkedIn Voice Drafting System  
 *A practical foundation document for turning Telegram idea notes into posts that sound like me*
 
@@ -7,6 +11,15 @@ This document defines the minimum system needed to convert rough Telegram notes,
 
 The objective is **not** to generate generic “good LinkedIn posts.”  
 The objective is to generate posts that feel recognizably mine.
+
+Additional founder-note constraints now confirmed:
+
+- the content program should optimize for **value and trust**, not hype or publishing frequency for its own sake
+- the main audiences are experienced AI practitioners and business-side AI buyers/operators
+- the system should support a long-term expert voice and avoid empty trend reposting
+- the workflow and tooling around capture, drafting, and publishing are still exploratory and may change
+
+See [`../founder-inputs/content-and-growth.md`](../founder-inputs/content-and-growth.md) for the current tracked source of truth behind those constraints.
 
 This design follows current vendor guidance: start with prompt design, examples, and evals; add retrieval where relevant; and consider fine-tuning later only if the earlier levers are insufficient. OpenAI also recommends structured outputs for reliable downstream automation, while Notion’s API supports the page property types needed for this workflow. ([developers.openai.com](https://developers.openai.com/api/docs/guides/prompt-engineering/?utm_source=chatgpt.com))
 

@@ -1,6 +1,25 @@
+---
+title: "[CODEX] Telegram-to-LinkedIn Content Pipeline"
+---
+
 # Telegram-to-LinkedIn content pipeline: a critical analysis
 
 **No commercial product covers this full pipeline, but you can build it for ~$10/month using existing building blocks — if you address five critical design flaws first.** The proposed Telegram → Notion → AI Draft flow is technically feasible and architecturally sound, but hides several non-obvious failure modes that would cause silent data loss, hallucinated content in published posts, and chronic friction from the "done" signal pattern. The good news: **n8n already has community templates covering ~70% of the input stage**, the LangChain ecosystem provides production-ready draft generation, and the total stack (python-telegram-bot + Whisper + Notion API + Claude) costs under $15/month for personal use. The biggest gap across every tool researched is Telegram as an *input* source — every platform treats it as a publishing destination only.
+
+---
+
+## Founder-aligned editorial constraints
+
+This pipeline should be treated as a possible internal content workflow, not as a settled product choice.
+
+- The confirmed content principle is **value and trust over noise**.
+- The two main audiences are:
+  - senior AI engineers / leads / architects
+  - business-side buyers and operators such as product managers, BAs, founders, CEOs, and CTOs
+- The system should help produce sharper drafts, not generic “AI LinkedIn” sludge.
+- Tooling choices for content and outreach remain exploratory; this document should not be read as a commitment to any single platform stack.
+
+For the current business source of truth, also see [`../founder-inputs/content-and-growth.md`](../founder-inputs/content-and-growth.md).
 
 ---
 

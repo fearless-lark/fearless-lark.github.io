@@ -1,3 +1,7 @@
+---
+title: "[CODEX] Remilink Documentation"
+---
+
 # Remilink Documentation
 
 <div class="rmk-home">
@@ -10,8 +14,8 @@
         The goal is clarity first: what Remilink does, who it helps, what outcomes it creates, and how the site should communicate that with confidence.
       </p>
       <div class="rmk-actions">
-        <a class="md-button md-button--primary" href="Remilink_FOUNDATION/">Read the Foundation</a>
-        <a class="md-button" href="design/PRD/">Open the PRD</a>
+        <a class="md-button md-button--primary" href="founder-inputs/">Open [CODEX] Founder Inputs</a>
+        <a class="md-button" href="WORKING_CONTEXT/">Open [CODEX] Working Context</a>
       </div>
     </div>
     <div class="rmk-hero__panel">
@@ -31,26 +35,42 @@
   </section>
 
   <section>
+    <h2>Current Truth</h2>
+    <div class="rmk-card-grid">
+      <a class="rmk-card" href="founder-inputs/">
+        <span class="rmk-card__label">Source of Truth</span>
+        <h3>[CODEX] Founder Inputs</h3>
+        <p>Tracked synthesis of the founder notes, including confirmed decisions, exploratory ideas, unresolved questions, and the preserved backlog.</p>
+      </a>
+      <a class="rmk-card" href="WORKING_CONTEXT/">
+        <span class="rmk-card__label">Handoff</span>
+        <h3>[CODEX] Working Context</h3>
+        <p>The current project phase, authoritative documents, key decisions, remaining gaps, and the recommended next steps.</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
     <h2>Core Documents</h2>
     <div class="rmk-card-grid">
       <a class="rmk-card" href="Remilink_FOUNDATION/">
         <span class="rmk-card__label">Core</span>
-        <h3>Foundation</h3>
+        <h3>[CODEX] Foundation</h3>
         <p>Purpose, north star, technology decisions, messaging rules, and the reusable system guidance for the rebuild.</p>
       </a>
       <a class="rmk-card" href="Remilink_Strategy/">
         <span class="rmk-card__label">Core</span>
-        <h3>Strategy</h3>
+        <h3>[BOTH] Strategy</h3>
         <p>Market positioning, specialization logic, service framing, and the commercial angle the site needs to communicate.</p>
       </a>
       <a class="rmk-card" href="Remilink_FounderBrief/">
         <span class="rmk-card__label">Core</span>
-        <h3>Founder Brief</h3>
+        <h3>[CODEX] Founder Brief</h3>
         <p>The founder inputs needed to supply proof, pricing, operations detail, and the raw material the site must convert into trust.</p>
       </a>
       <a class="rmk-card" href="Remilink_ActionPlan/">
         <span class="rmk-card__label">Core</span>
-        <h3>Action Plan</h3>
+        <h3>[BOTH] Action Plan</h3>
         <p>A phased execution plan covering proof, content, site rebuild, sales process, and outbound follow-through.</p>
       </a>
     </div>
@@ -61,17 +81,17 @@
     <div class="rmk-card-grid">
       <a class="rmk-card" href="design/PRD/">
         <span class="rmk-card__label">Design</span>
-        <h3>PRD</h3>
+        <h3>[CODEX] PRD</h3>
         <p>Objectives, page specifications, acceptance criteria, technical architecture, and discoverability requirements.</p>
       </a>
       <a class="rmk-card" href="design/DESIGN_BRIEF/">
         <span class="rmk-card__label">Design</span>
-        <h3>Design Brief</h3>
+        <h3>[CODEX] Design Brief</h3>
         <p>The visual direction, reference mapping, section behavior, typography, color, and interaction rules for the site.</p>
       </a>
       <a class="rmk-card" href="design/LINEAR/">
         <span class="rmk-card__label">Delivery</span>
-        <h3>Linear Structure</h3>
+        <h3>[CODEX] Linear Structure</h3>
         <p>The execution breakdown into projects, epics, and tasks so the rebuild can be delivered in a disciplined sequence.</p>
       </a>
     </div>

@@ -1,561 +1,203 @@
-# Remilink Website Rebuild — Foundation Document v0.1
+---
+title: "[CODEX] Remilink Foundation"
+---
+
+# Remilink Website Rebuild — Foundation
+
+This document captures the current website mandate after the founder-note synthesis. It should stay aligned with [`docs/founder-inputs/`](founder-inputs/index.md) and the design PRD.
 
 ## 1. Purpose
 
-The purpose of the new Remilink website is to make visitors understand, within one or two looks:
+The new Remilink website exists to help a qualified visitor understand four things quickly:
 
-- what Remilink does
-- who Remilink helps
-- what business outcomes it delivers
-- why it is credible
+- what Remilink actually does
+- who it is most relevant for
+- why its approach reduces risk
 - what the next step is
 
-The site must work as a **clear decision layer**, not as an encyclopedia. Its job is to reduce confusion, build trust, and convert qualified visitors into discovery calls or contact inquiries.
-
----
+The site is not supposed to be a capability dump. Its job is to convert skepticism into a conversation.
 
 ## 2. North Star
 
-**Clear positioning + premium restraint + technical credibility + strong discoverability + rigorous consistency.**
-
 The site should feel:
-- modern
-- technically credible
-- premium
+
+- trustworthy
 - calm
-- focused
-- easy to understand
-- human behind the competence
+- intelligent
+- specific
+- founder-led
+- useful
+- approachable
 
-The site should **not** feel:
-- noisy
-- trendy for the sake of trendiness
-- overloaded with AI jargon
-- visually overwhelming
-- vague about outcomes
-- cluttered with redundant sections
-- generic like a mass-market dev agency
+The site should not feel:
 
----
+- overloaded
+- generic
+- hype-driven
+- desperate
+- visually noisy
+- like it is trying to cover every possible AI service for every possible buyer
 
-## 3. Product Definition
+## 3. Primary User Action
 
-This is a **static-first marketing website** for Remilink, built for:
+The primary action is contact-form submission.
 
-- positioning
-- credibility
-- organic discoverability
-- AI/web search discoverability
-- lead generation
+Working requirements:
 
-It is **not** a web app, dashboard, CMS-heavy platform, or complex interactive product.
+- submissions route to `info@remilink.com`
+- manual response within 24 hours
+- manual-only reply flow for now, without automated responses
+- no default calendar embed
+- no default CRM dependency
 
-GitHub Pages is a static site hosting service that serves HTML, CSS, and JavaScript from a repository and can publish via a build process, which fits this approach well.
+Exact CTA button wording is still open, but the interaction model is not: the website should invite a message, not force an immediate scheduled call.
 
----
+## 4. Audience
 
-## 4. Technology Decision
+### Primary
 
-### Chosen stack
+- mid-sized and larger organizations with real AI implementation problems
+- especially e-commerce teams with complex search / shopping-assistant opportunities
+- buyers such as CTOs, Product Owners, founders, and engineering leaders
 
-- **Astro**
-- **TypeScript**
-- **scoped CSS or CSS Modules**
-- **Astro content collections / Markdown / MDX**
-- **GitHub Actions**
-- **GitHub Pages**
-- **custom domain** (www.remilink.com)
-- **Lighthouse + axe**
-- **Playwright only if it materially helps**
+### Secondary
 
-### Why this stack
+- data-sensitive organizations that need in-house AI deployment or secure AI adoption support
 
-Astro's islands architecture is a strong fit because it allows mostly static HTML with small, isolated interactive regions (such as the hero particle effect), which suits a restrained marketing site better than a client-heavy app. Astro content collections provide structured, type-safe content organization for repeatable content like case studies and blog posts. Google's JavaScript SEO guidance favors static rendering, server-side rendering, or hydration patterns over relying heavily on client-side rendering alone.
+### Emerging
 
-### Explicit non-decisions
+- EdTech, but only with careful framing because proof is thinner
 
-We are **not** using:
-- Next.js as the default
-- a full React app as the foundation
-- Storybook as a requirement
-- Tailwind as a requirement
-- shadcn as the foundation
-- heavy process/tooling for its own sake
+## 5. Messaging Priorities
 
----
+### 1. Risk Reduction
 
-## 5. Core Website Principles
+Remilink should communicate that it validates the right thing before the client commits to heavier engineering and operations.
 
-### Principle 1 — Homepage is a decision layer
+### 2. Honest Expertise
 
-The homepage must answer quickly:
-- What does Remilink do?
-- Who is it for?
-- What outcomes does it deliver?
-- Why should I trust it?
-- What should I do next?
+The company should sound like it knows how to choose the right technical approach, not just how to say “AI.”
 
-### Principle 2 — One section = one job
+### 3. AI-Native Execution With Human Ownership
 
-Each section must have one purpose only:
-- positioning
-- proof
-- service navigation
-- trust-building
-- objection handling
-- conversion
+Internal AI-native workflows matter, but public messaging should emphasize the combination of speed and responsibility, not automation bravado. That story should now include two clarifications:
 
-If a section tries to do multiple jobs, it must be split or simplified.
+- strong data-engineering practice is part of the implementation foundation
+- actual tools and models should be aligned with client restrictions, including on-prem options where required
 
-### Principle 3 — Fewer, stronger pages
+### 4. Founder-Led Credibility
 
-We do **not** aim for many pages for the sake of page count.
-We aim for **only pages that deserve to exist**.
+Real founder presence, real photos, and clear accountability matter for trust.
 
-Initial target:
-- approximately **8–12 strong pages**
-- each page must have clear purpose and enough depth
+The site should also make clear that small staffed engagements still draw on the wider team’s AI expertise and architectural bench, not just on the people visibly assigned day to day.
 
-### Principle 4 — Clarity beats completeness
+### 5. Specific Proof Over Grand Claims
 
-Not every capability, industry vertical, or technical methodology belongs on the homepage.
+Case-study depth, portable Discovery artifacts, and process clarity are safer and more credible than unsupported rankings or inflated statistics.
 
-If content does not improve:
-- understanding
-- trust
-- or conversion
+## 6. Site Structure
 
-it should be removed, shortened, or moved deeper.
+The brandbook still requires these core sections:
 
-### Principle 5 — Premium restraint
+- Services
+- Company
+- Contact Us
+- Blog
+- Case Studies
+- Industries
 
-Remilink should signal competence through calm and whitespace, not through density and visual force. Use hierarchy, precision, and room to breathe. Avoid visual aggression, clutter, and excessive motion.
+For v1, the practical page set remains:
 
----
+- Home
+- Services
+- Case Studies
+- Industries
+- Company / About
+- Blog
+- Contact
 
-## 6. Positioning Direction
+The homepage should act as a decision layer, not a miniature encyclopedia.
 
-### Two colors only
+## 7. Homepage Jobs
 
-The entire site serves exactly two messages:
+The homepage should answer, in order:
 
-**Color 1: Risk reduction** — "We prove it before you scale." Your investment is safe with us. We validate before you commit serious budget.
+1. What does Remilink do?
+2. Why is its approach lower risk than generic AI promises?
+3. What kind of problems and buyers does it understand?
+4. Why should I trust these people?
+5. What should I do next?
 
-**Color 2: Honest expertise** — "We know what actually works." We've seen the full spectrum of AI approaches. We pick the right one, not the trendy one. We'll tell you the truth about what will work for your problem.
+The founder’s desired impression sequence matters:
 
-Every section, every page, every sentence should reinforce one of these two messages. Nothing else.
+- first 5 seconds: visually credible and worth reading
+- next 5 seconds: content looks relevant
+- next 5 seconds: “these might be the right people for our AI project”
 
-### Working hero
+## 8. Content Rules
 
-**Headline:** "Validate fast, scale smart."
-**Support:** "We prove AI works for your problem before you commit serious budget."
-**CTA:** "Book a Discovery Call"
+### Clarity Beats Exhaustiveness
 
-### What Remilink actually is
+Not every service, industry, or future idea belongs on the homepage.
 
-Remilink is a full-lifecycle AI partner. The same team that diagnoses the business problem also designs the solution, validates it, and builds it to production. No handoff between consultants and engineers. No lost context.
+### Honesty Beats Volume
 
-The real differentiator is not any single technology — it's the combination of:
-- **Diagnostic ability** — hearing a business problem and figuring out if and how AI solves it
-- **Full-spectrum AI knowledge** — classical ML, CV, NLP, audio/DSP, LLMs, agents, RAG — choosing the right approach, not defaulting to the latest trend
-- **Validation-first methodology** — focused PoC (2-4 months, AI-only, no integrations) that proves the approach works before the client commits to scale
-- **End-to-end delivery** — PoC to MVP to production, with constant communication and incremental validation
+Do not publish unsourced claims just because they sound impressive.
 
-### Positioning against competitors
+### Value Beats Hype
 
-Remilink should be clearly distinguished from:
-- **"AI transformation" consultancies** that sell slides and roadmaps but don't build systems
-- **LLM-only dev shops** that default to LLMs for everything because it's all they know
-- **Offshore dev shops** that build to spec without strategic thinking or honest scoping
-- **Big-four consulting firms** that are slow, expensive, and produce reports
-- **Solo freelancers** who lack the depth for production-grade delivery
+The whole site should sound like it respects the visitor’s attention.
 
-### Audience
+### Helpful Beats Pushy
 
-**Primary: Mid-sized company decision-makers (VP/C-level)**
-- Evaluating AI implementation partners
-- Skeptical of vague "AI transformation" promises — likely burned before
-- Want to see specific outcomes and practical approach
-- Want low-risk entry (not a 12-month commitment upfront)
-- Industries: E-commerce, EdTech (strongest proof), Manufacturing, Healthcare (secondary)
+The contact flow should feel like the start of a thoughtful, low-pressure conversation with a capable helper, not like entry into a funnel with urgency gimmicks.
 
-**Secondary: Technical evaluators**
-- CTOs, engineering leads doing due diligence
-- Want to see technical depth, methodology, and honest tool selection
-- Blog posts, case study details, and the services page serve this audience
+### Proof Needs Audit
 
----
+Any existing numbers, rankings, or testimonials must be sourced or removed.
 
-## 7. Content Strategy
+## 9. Visual Direction
 
-### Content filter
+The current design direction still stands:
 
-Every block of content must justify itself by helping with at least one of:
-- understanding
-- trust
-- conversion
+- light, calm, premium restraint
+- orange accent within a mostly neutral system
+- human-modern rather than dark or hyper-technical
+- intentional whitespace and stronger hierarchy
 
-Otherwise it should be cut or moved.
+Important clarification:
 
-### Homepage content policy
+- the written brandbook is useful for textual direction
+- the visual brandbook is image-heavy and should be treated as inspiration / moodboard, not as a complete implementation spec
 
-The homepage should include only:
-- a clear headline
-- a concise supporting value proposition
-- one primary CTA
-- proof metrics (compact strip, not a full section)
-- a compact services overview
-- a trust/about strip
-- blog highlights
-- a final CTA
+## 10. Operations and Launch
 
-The homepage should **not** contain full-detail explanations of every service, industry, methodology, or case study.
+### Must be ready at launch
 
-### Deep content belongs on secondary pages
+- working contact flow to `info@remilink.com`
+- clear CTA path
+- case-study and claims discipline
+- coherent founder/team presentation
 
-Use dedicated pages for:
-- full service descriptions
+### Should follow at launch or immediately after
+
+- analytics
+
+Analytics matters, but it should not become an excuse to delay the first credible launch.
+
+## 11. Inputs Still Needed
+
+- verified proof claims
 - expanded case studies
-- industry-specific positioning
-- company story and approach
-- blog / insights
-- contact / discovery
-
----
-
-## 8. Messaging Rules
-
-### Above the fold, the site must communicate:
-- risk reduction (we validate before you commit budget)
-- honest expertise (we know what works and we'll tell you the truth)
-- what proof exists (specific anonymized outcome metrics)
-- what action to take next (book a discovery call)
-
-### Messaging hierarchy (in order of prominence)
-1. Risk reduction: We prove AI works for your problem before you commit serious budget
-2. Honest expertise: We design the right AI solution from the full spectrum of approaches
-3. Methodology: Discovery → PoC → MVP → Production (validation at every stage)
-4. Proof: Specific anonymized outcome metrics from real engagements
-5. Next step: Book a discovery call
-
-### Tone requirements
-
-The tone should be:
-- clear
-- confident
-- precise
-- technically honest
-- human where it matters
-- direct without being aggressive
-
-The tone should not be:
-- buzzword-heavy ("synergize AI-driven transformation")
-- vague ("unique approach," "innovative solutions")
-- overselling ("the best," "world-class," "revolutionary")
-- cold or impersonal
-- too casual or startup-cute
-
-### Copy rule
-
-Every page should answer:
-- what this page is about
-- who it is for
-- why it matters
-- what to do next
-
----
-
-## 9. Initial Information Architecture
-
-Proposed initial structure:
-
-- `/` — Home
-- `/services/` — Services / capabilities overview
-- `/case-studies/` — Case studies hub
-- `/industries/` — Industries we serve
-- `/about/` — Company, founder, approach, trust
-- `/blog/` — Blog / insights index
-- `/blog/[slug]` — Individual blog posts
-- `/contact/` — Contact / discovery call
-
-Optional later:
-- `/services/[slug]` — Individual service detail pages
-- `/case-studies/[slug]` — Individual case study pages
-- Dedicated landing pages for specific offers or campaigns
-
-Only add these if content depth justifies them.
-
----
-
-## 10. SEO and Discoverability Rules
-
-The site must be easy to understand for both human visitors and crawlers.
-
-### Baseline requirements
-
-- static HTML output where possible
-- unique page titles
-- clear H1 per page
-- logical heading hierarchy
-- strong internal linking
-- sitemap.xml
-- robots.txt
-- canonical URLs
-- structured data where useful (Organization, Article, BreadcrumbList)
-- meaningful text content on all indexable pages
-
-Google notes that JavaScript-heavy sites can run into discoverability issues and recommends rendering approaches that make content more accessible to search systems.
-
-### AI/search discoverability
-
-Crawler policy for AI-oriented search should be a deliberate decision. Controls for GPTBot, OAI-SearchBot, ClaudeBot, and Anthropic crawlers should be configured through `robots.txt`. An `/llms.txt` file should provide a concise, machine-readable description of what Remilink does.
-
-### Search intent focus
-
-The content strategy should support discoverability for queries such as:
-- AI implementation partner
-- AI consulting for e-commerce / EdTech / manufacturing
-- AI proof of concept development
-- validate AI before scaling
-- AI readiness assessment
-- when not to use LLMs
-- AI solution architecture
-- production-grade AI systems
-- responsible AI operations
-
----
-
-## 11. UX and Visual Rules
-
-### Design reference
-
-The visual direction follows antigravity.google — quiet confidence, massive whitespace, sparse particle texture, monochrome with orange accents, one idea per screen. Full visual specification is in the project's DESIGN_BRIEF.md.
-
-### Desired qualities
-
-- calm
-- confident
-- technical but human
-- visually clean
-- easy to scan
-- strong hierarchy without excessive visual force
-- premium without being cold
-
-### Visual direction
-
-The site should visually balance:
-- technical credibility (this is an engineering firm)
-- approachability (clients are non-technical decision-makers first)
-- modern digital polish (Remilink builds AI — the site should feel contemporary)
-
-That means:
-- strong hierarchy
-- generous whitespace (significantly more than current site)
-- monochrome base with orange as the single accent color
-- consistent section patterns (text/visual split, proof strip, minimal cards)
-- restrained use of decorative elements
-- real photography (founder, team) over stock imagery
-
-### Motion policy
-
-Motion is allowed only when it improves:
-- focus
-- delight without distraction
-- perceived polish
-
-One tasteful interactive element is acceptable (the hero particle effect). The site must not become an effects showcase. Astro's islands model supports isolated interactivity while keeping the rest of the site static.
-
-### Mobile-first rule
-
-Every page must remain clear and premium on mobile.
-No section should depend on desktop-only visual complexity to make sense.
-
----
-
-## 12. Trust Strategy
-
-The website must build trust through specific, verifiable proof.
-
-### Preferred trust elements
-- anonymized case study metrics with challenge/approach/result depth
-- specific outcome numbers (68% faster, 30% improvement, 98% accuracy)
-- case studies that show the decision (what was recommended and why), not just the result
-- founder story and credentials
-- real team photography (not stock)
-- visible delivery methodology (Discovery → PoC → MVP → Production) — the methodology IS the trust signal
-- transparency about approach: "we'll tell you if AI isn't the answer"
-- blog content demonstrating judgment (when NOT to use an LLM, how to scope properly)
-- clear deliverables per engagement stage (not vague promises)
-
-### Avoid vague trust claims such as:
-- "world-class team"
-- "innovative solutions"
-- "cutting-edge technology"
-- "unique methodology"
-
-unless they are supported with specifics.
-
-### Trust compensation for NDA constraints
-
-Since case study clients cannot be named, the depth of each case study narrative must compensate. Specific technical details — what was built, what stack, how it integrates, what the measurable result was — build trust even without company names.
-
----
-
-## 13. Reusable System Rules
-
-The implementation should be component-based, but lightweight.
-
-### Section layout patterns
-- **Pattern A — Hero:** full-width, centered brand + headline + CTAs, particle canvas behind
-- **Pattern B — Text/visual split:** heading + description left, supporting visual right
-- **Pattern C — Proof strip:** compact metrics row, typography-only
-- **Pattern D — Minimal card row:** max 3 cards for services or blog teasers
-- **Pattern E — Full-width CTA block:** centered headline + support text + button
-
-### Required reusable components
-- header / nav
-- footer
-- hero (with particle island)
-- CTA block
-- proof strip
-- service card
-- case study block
-- blog/article card
-- page section wrapper
-- contact form
-- head meta (SEO, OG tags, JSON-LD)
-
-Rule:
-- reuse patterns aggressively
-- customize content, not structure, unless there is a strong reason
-
----
-
-## 14. Quality Bar
-
-The site is not done unless it is:
-
-- clear
-- accessible (WCAG 2.1 AA)
-- fast (<2s on 3G)
-- responsive
-- crawlable
-- internally consistent
-
-### Acceptance standards
-
-- no page exists without a clear purpose
-- no page exists without a clear next step
-- no section duplicates another section's role
-- no decorative effect is allowed to reduce readability
-- no important meaning depends on JavaScript only
-- no content block survives if it adds noise without value
-- contact form works end-to-end
-
----
-
-## 15. Delivery Rules
-
-### What we optimize for
-
-- clarity of message
-- disciplined page architecture
-- maintainability
-- discoverability
-- premium execution
-
-### What we do not optimize for
-
-- framework novelty
-- excessive tooling
-- unnecessary animation
-- inflated page count
-- process overhead that slows delivery
-
-### Practical workflow
-
-1. audit current site
-2. define keep / cut / move decisions
-3. lock sitemap
-4. lock messaging hierarchy
-5. create implementation-ready PRD
-6. build the shared system
-7. implement pages
-8. polish and validate
-9. launch
-
----
-
-## 16. Out of Scope for v1
-
-Unless clearly justified, v1 should exclude:
-- CMS integration
-- account systems
-- complex calculators or tools
-- extensive animation systems beyond hero particles
-- multi-language support
-- heavy client-side application logic
-- broad industry-page expansion before core pages are strong
-- individual case study pages (expanded blocks on hub page are sufficient)
-- newsletter / email capture
-- dark mode
-- A/B testing infrastructure
-
----
-
-## 17. Success Criteria
-
-The rebuild is successful if:
-
-- a first-time visitor understands Remilink within 5 seconds
-- the homepage feels lighter, clearer, and more spacious than the current version
-- the site communicates specific outcomes, not vague promises
-- a VP-level buyer feels confident enough to book a discovery call
-- a CTO-level evaluator finds enough technical depth to take Remilink seriously
-- the site has stronger topic-level pages without becoming bloated
-- the site remains fast and clean on GitHub Pages
-- the content is easier for search engines and AI systems to interpret
-- the implementation remains simple enough to maintain confidently
-
----
-
-## 18. Decision Log
-
-### Fixed decisions
-
-- static-first site
-- Astro-based implementation
-- GitHub Pages deployment
-- custom domain (www.remilink.com)
-- content clarity first
-- no heavy framework overhead
-- no Storybook requirement
-- no Tailwind requirement
-- no shadcn-first approach
-- antigravity.google as visual reference
-- orange as single accent color
-- lead industries: E-commerce, EdTech (strongest proof); secondary: Manufacturing, Healthcare
-- formsubmit.co for form handling
-- "Book a Discovery Call" as primary CTA
-
-### Open decisions
-
-- exact page count in v1
-- whether individual service detail pages belong in v1
-- whether individual case study pages belong in v1
-- whether Playwright is needed from the start or only later
-- final hero headline copy (working version: "Validate fast, scale smart.")
-- whether any additional industries get mentioned as secondary
-
----
-
-## 20. Related Documents
-
-- [Remilink_Strategy.md](Remilink_Strategy.md) — full strategic positioning analysis with all explored options
-- [Remilink_FounderBrief.md](Remilink_FounderBrief.md) — questions the founder must answer for the development team
-
----
-
-## 19. Working Motto
-
-**Say less per page. Mean more per page.**
+- founder and team photography
+- final CTA wording
+- clearer team-presentation language
+- decision on whether the contact experience should show the actual responder or a direct LinkedIn cue
+- tighter company-size and industry framing
+
+## 12. Related Docs
+
+- [`docs/founder-inputs/brand-and-site-requirements.md`](founder-inputs/brand-and-site-requirements.md)
+- [`docs/Remilink_Strategy.md`](Remilink_Strategy.md)
+- [`docs/design/PRD.md`](design/PRD.md)
+- [`docs/design/DESIGN_BRIEF.md`](design/DESIGN_BRIEF.md)

@@ -1,3 +1,7 @@
+---
+title: "[CODEX] Remilink Design Brief"
+---
+
 # Remilink Website — Design Brief
 
 ## Primary design reference
@@ -7,6 +11,13 @@
 Reference screenshots saved in `.plan/reference/` (see below for what to capture).
 
 This site is the visual north star for the Remilink rebuild. Every layout decision, spacing choice, and visual treatment should be measured against this reference. When in doubt, go closer to the reference, not further.
+
+## Business truth updates that affect design
+
+- The primary site action is contact-form submission, not calendar-first booking.
+- Contact intent should route to `info@remilink.com` with manual follow-up, so the CTA should feel like “start the conversation,” not “book instantly.”
+- E-commerce is the strongest current public proof context; EdTech is real but more tentative, and broad multi-industry authority should not be implied visually.
+- The visual brandbook `.docx` is mainly a moodboard/mockup source, not a complete implementation system. Use it for atmosphere and cues, not pixel-perfect rules.
 
 ## What we are adopting from the reference
 
@@ -30,8 +41,8 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 
 **For Remilink:**
 - "REMILINK" wordmark (brand gradient) on far left
-- Nav links: Services, Case Studies, Industries, Blog, About
-- CTA button: "Book a Call" — dark fill (black or near-black), pill shape
+- Nav links: Services, Case Studies, Industries, Blog, Company/About
+- CTA button: primary conversation CTA, exact copy TBD, visually emphasized as the main form-entry path
 - Drop the current blurred glass `backdrop-filter` header entirely
 - Drop the current `border-bottom: 1px solid rgba(...)` line
 - Sticky position is fine, but keep it visually flat
@@ -55,7 +66,7 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 - Centered REMILINK wordmark in brand gradient, larger than current header logo
 - Headline below: specific, not poetic
 - Support text below headline: one sentence
-- Two CTAs: primary filled + secondary ghost/outline
+- Primary CTA should clearly lead to the contact flow; a secondary CTA is optional and should not compete unless it has a real destination
 - Vertical padding: significantly more than current. The hero should occupy most of the viewport on desktop. Think 80-90vh, not the current cramped layout.
 
 ### 4. Section spacing
@@ -157,7 +168,7 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 - Option A: switch to dark CTAs to match the reference more closely
 - Option B: keep orange CTAs as the brand accent (current approach)
 - **Recommendation: keep orange CTAs.** The orange is Remilink's brand color and serves as the single accent in an otherwise monochrome site. A dark CTA would blend into the text. Orange CTAs will pop more in the restrained layout.
-- Header CTA: orange pill, "Book a Call"
+- Header CTA: orange pill, exact copy TBD, should imply a low-pressure conversation rather than an instant calendar booking
 - Ghost links: keep current style (text + arrow, no border)
 
 ### 10. Footer

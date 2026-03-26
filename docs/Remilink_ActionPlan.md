@@ -1,4 +1,10 @@
+---
+title: "[BOTH] Remilink Action Plan"
+---
+
 # Remilink Action Plan
+
+> Updated 25.03.2026 after processing founder voice recordings.
 
 ## The One-Sentence Plan
 
@@ -8,119 +14,146 @@ Everything else is a distraction until these are done.
 
 ---
 
-## Phase 0: Foundation (1-2 weeks) — DO THIS FIRST
+## Phase 0: Foundation ✅ LARGELY COMPLETE
 
-Answer the FounderBrief questions. Everything else depends on this.
+The founder answered the FounderBrief questions through voice recordings. Results are in:
+- [`Remilink_FounderNotes.md`](Remilink_FounderNotes.md) — Full structured extraction
+- [`Remilink_FounderBrief_Answered.md`](Remilink_FounderBrief_Answered.md) — Brief with inline answers
 
-Specifically, the three answers that unlock everything:
+**What's answered** (8 of 13 sections fully, 5 partially): Buyer personas, ICP, services with pricing/timelines, methodology, team background, website vision, competitors (4 of 6), content strategy, operations.
 
-### 1. Audit your 6 case studies ruthlessly
+**What's still open**:
 
-For each one: Is it real? Are the metrics accurate? Can you expand it into challenge / approach / result? Can you explain *why* you chose that approach? This is your proof. Without strong proof, a beautiful website sells nothing.
-
-### 2. Decide what's real about your stats
-
-"100+ AI initiatives" — true or inflated? "Top 0.001%" — sourced or invented? "4.9/5 rating" — from where? Either source them or kill them. One provably false claim destroys more trust than ten true ones build.
-
-### 3. Write down your methodology in plain language
-
-Not for the website — for yourself. The Discovery / PoC / MVP / Production flow. What happens at each stage. What the client gets. How long it takes. How much it typically costs. This becomes your services page AND your sales pitch.
-
-Don't polish. Just answer honestly in a Google Doc. The team can turn raw truth into good copy. They can't turn vague answers into anything.
+- [x] ~~Source or kill current site metrics~~ → **KILLED** (26.03.2026). All three dropped.
+- [ ] Expand case studies into challenge/approach/result format
+- [ ] Review/update existing 4 blog articles
+- [ ] Clarify brandbook status (are existing .docx files current?)
+- [ ] Complete competitor analysis (skywell.software, dataforest.ai)
+- [x] ~~Final company-size target~~ → "Mid-sized and larger companies with complex product catalogs and/or real operational complexity" (26.03.2026)
+- [x] ~~Decide how explicitly to show pricing~~ → Entry costs + monthly rates (from $15K/mo), no totals, no durations next to prices (26.03.2026)
 
 ---
 
-## Phase 1: Proof (2-3 weeks, parallel with Phase 0)
+## Phase 1: Proof (2–3 weeks)
 
 **Make your case studies undeniable.**
 
-Right now you have 6 anonymized case studies with 2-line summaries. That's not enough. For each one, write:
+Currently: 50+ projects across the founder's career, most under NDA, most in classical ML/CV/NLP rather than LLM/agents. For each case study worth keeping, write:
 
-- What was the client's actual business problem (2-3 sentences)
-- What you recommended and why (this is where you show judgment — "we chose X over Y because...")
-- How the PoC validated it (what was tested, what the results were)
+- What was the client's actual business problem (2–3 sentences)
+- What you recommended and why (shows judgment — "we chose X over Y because...")
+- How the POC validated it (what was tested, what the results were)
 - The measurable production result (specific numbers)
-- What technology was used (builds technical credibility even without naming the client)
+- What technology was used (builds credibility even without naming the client)
 
-This is the single highest-ROI activity you can do. A VP reading a detailed, honest case study with specific numbers thinks "these people have done this before." A VP reading "30% improvement" with no context thinks "anyone can write a number."
-
-If you only have 3 strong stories — that's fine. Three deep case studies beat six shallow ones.
+If proof is thin, the site should become more process-led and founder-led until the case material catches up. Three deep case studies beat six shallow ones.
 
 ---
 
-## Phase 2: Content Engine (start after Phase 0, ongoing)
+## Phase 2: Commercial Readiness Inputs ✅ LARGELY RESOLVED (26.03.2026)
 
-**Write 1 article every 2 weeks. Post on LinkedIn. Republish on the blog.**
+Most inputs have been locked:
 
-Topic priority:
-
-1. **"When NOT to use an LLM"** — your single best trust-building article. Real examples from your experience where a simpler approach won. This will get shared because it's contrarian.
-
-2. **"The PoC trap: why AI projects die between prototype and production"** — speaks directly to the buyer's fear. Positions your methodology as the solution.
-
-3. **"How we scoped an AI project that saved a client 6 months of wasted budget"** — a real story (anonymized) that shows your diagnostic process in action.
-
-4. **"What to ask before hiring an AI partner"** — a checklist that happens to describe exactly what Remilink does well. Generous content that builds trust.
-
-Why this matters more than the website: a LinkedIn article that gets 50 relevant people to read it is worth more than a perfect website that nobody visits. Content drives traffic. Traffic makes the website useful.
+- [x] ~~Service labels~~ → AI Strategy Session / Discovery & Blueprint / Concept Validation / Production-Ready Build / Scale & Optimize
+- [x] ~~ICP framing~~ → Mid-sized and larger companies with complex product catalogs and/or real operational complexity
+- [x] ~~CTA wording~~ → Button: "Discuss Your AI Project" / Subtext: "Get an honest assessment of feasibility, timeline, and cost — directly from our chief architect."
+- [x] ~~Team presentation~~ → Founder-first About page. Team section shows roles, not faces.
+- [x] ~~Pricing display~~ → Entry costs + monthly rates (from $15K/mo). No totals. Durations shown separately.
+- [x] ~~Secondary CTA~~ → Deferred. Methodology page = shareable URL. PDF built post-launch.
+- [x] ~~`info@remilink.com` routing~~ → Already working via formsubmit.co (forwards to info@remilink.com, provides email hiding + DDoS protection). No change needed.
+- [ ] **Professional photoshoot** — nice-to-have enhancement (no longer a blocker — About page launches founder-first)
 
 ---
 
-## Phase 3: Website Rebuild (start after Phase 0 content is ready)
+## Phase 3: Content & Growth Foundations (parallel with Phase 2)
 
-The Foundation doc, PRD, Design Brief, and Linear plan are already in place. The website build itself is the most straightforward part — it's engineering, and you're good at engineering.
+### Content Principles (from founder)
+- Value and trust, not hype. "We are not news channels."
+- Demonstrate domain expertise, not rebroadcast industry news
+- Two audiences: AI developers (senior/lead/architect) and business (PM, BA, founders, CxO)
 
-But the website is only as strong as the content going into it. That's why Phases 0-1 come first.
+### Article Priority
+1. **"When NOT to use an LLM"** — trust-building, contrarian, gets shared
+2. **"The PoC trap: why AI projects die between prototype and production"** — speaks to buyer's fear
+3. **"How we scoped an AI project that saved a client 6 months of wasted budget"** — shows diagnostic process
+4. **"What to ask before hiring an AI partner"** — generous content that describes what RemiLink does well
 
-Key priorities for the rebuild:
+### LinkedIn Multi-Account Strategy
+- **Founder's personal page**: High-quality posts, 1x/week or every 2 weeks
+- **Persona accounts**: 3 posts/week each; must feel like real people (developer, PM, BA), not salespeople
+- Each persona needs a backstory; initially focused on e-commerce and EdTech domains
+- Contact database building via outreach tools (Clay, Apollo, LinkedIn Helper, or alternatives — to be finalized)
 
-1. Homepage with the new positioning ("Validate fast, scale smart.")
-2. Services page structured as the journey (Discovery / PoC / MVP / Production)
+The goal is not volume. The goal is credible signal.
+
+---
+
+## Phase 4: Website Build (after Phases 1–2 content is ready)
+
+The Foundation doc, PRD, Design Brief, and Linear plan are already in place. The website build is the most straightforward part — it's engineering.
+
+### Page Priorities
+1. Homepage with positioning ("Validate fast, scale smart.")
+2. Services page structured as the journey (AI Strategy Session → Discovery & Blueprint → Concept Validation → Production-Ready Build → Scale & Optimize) with entry pricing
 3. Case studies page with expanded decision-story format
-4. About page with founder story and team
+4. About page — founder-first (photo available), team roles without photos
 5. Blog migrated and ready for new content
-6. Contact page that works
+6. Contact page with form → info@remilink.com
+
+### Build Principles
+- Clarity before cleverness
+- Trust before hype
+- Form conversion before automation
+- Proof discipline before bold claims
 
 ---
 
-## Phase 4: Sales Process (parallel with Phase 3)
+## Phase 5: Post-Launch
 
-**Name your methodology and make it your sales pitch.**
+Ship the supporting operational layer right after launch:
 
-You already have it — Discovery / PoC / MVP / Production. But right now it's an internal process. Make it external:
+- [ ] **Analytics** — Google Analytics / Plausible / PostHog (not a launch blocker, but add promptly)
+- [ ] Inquiry tracking discipline
+- [ ] Lightweight follow-up workflow for inbound leads
+- [ ] Continued case study expansion
+- [ ] Continued content publication (1 article every 2 weeks)
+- [ ] Build downloadable PDF (methodology + case studies + pricing) — ungated, for prospects to share with their teams
 
-- Give it a name (optional but helps — "Remilink Validation Framework" or just "Our Process")
-- Create a one-page PDF or a single page on the site that walks through it visually
-- When a lead comes in, send them this before the call: "Here's how we typically work. The first step is a discovery conversation to understand your problem — no commitment, no cost."
+### Sales Process
+- Name the methodology externally ("Remilink Validation Framework" or "Our Process")
+- Create a one-page PDF or site page with visual walkthrough
+- Send to leads before the call: "Here's how we typically work. First step is a discovery conversation — no commitment, no cost."
 
-The point: your methodology reduces buyer risk. Showing it upfront reduces the risk of the first call itself. A VP is more likely to book a call if they know it's "a discovery conversation" rather than "a sales pitch."
-
----
-
-## Phase 5: Outbound (after website is live)
-
-Only after the website is rebuilt and you have 3-4 published articles:
-
-- Share articles on LinkedIn consistently
-- Engage with target audience posts (VP/CTO-level in e-commerce, edtech)
-- Consider 1-2 targeted outreach campaigns to companies in your strongest verticals
-- Ask past clients for referrals (with the new case study as a conversation starter)
+### Potential Quick Win: Agentic POC Offering
+- 30–40% cheaper/faster POC using agentic approach (1–2 months instead of 2–4)
+- For validation only, not production
+- **Note**: The agentic system needs to be built first. Founder proposes testing on UTR project.
 
 ---
 
-## What NOT to spend time on right now
+## What NOT to Spend Time on Right Now
 
-- Picking new industries to target (prove the ones you have first)
-- Building complex tooling or internal systems
-- Attending conferences or events (ROI is too slow for where you are)
-- Hiring a sales person (you can't brief them until you've figured out your own positioning)
-- Paid advertising (your volume is too low and your positioning isn't battle-tested yet)
-- Social media beyond LinkedIn (that's where your buyers are, nowhere else)
+- Picking new industries (prove the ones you have first)
+- Building complex internal tooling or agent swarms
+- Conferences/events (ROI too slow at this stage)
+- Hiring a salesperson (can't brief them until positioning is battle-tested)
+- Paid advertising (volume too low, positioning untested)
+- Social media beyond LinkedIn
+- Computer Vision as a service line (shelved — niche market)
+- CRM development (no clear AI angle)
+- Complex CRM integration (lead volume doesn't justify it)
+- Calendar-heavy booking flows
+- Elaborate automation before basic content and inquiry systems work
 
 ---
 
 ## Related Documents
 
-- [Remilink_Strategy.md](Remilink_Strategy.md) — full strategic positioning analysis with all explored options
-- [Remilink_FOUNDATION.md](Remilink_FOUNDATION.md) — website rebuild foundation document
-- [Remilink_FounderBrief.md](Remilink_FounderBrief.md) — questions the founder must answer for the development team
+- [`Remilink_FounderNotes.md`](Remilink_FounderNotes.md) — Full structured extraction from founder recordings
+- [`Remilink_FounderBrief_Answered.md`](Remilink_FounderBrief_Answered.md) — Brief with inline answers
+- [`Remilink_Strategy.md`](Remilink_Strategy.md) — Strategic positioning
+- [`Remilink_FOUNDATION.md`](Remilink_FOUNDATION.md) — Website rebuild foundation document
+- [`design/PRD.md`](design/PRD.md) — Product requirements document
+- [`design/DESIGN_BRIEF.md`](design/DESIGN_BRIEF.md) — Visual design specification
+- [`design/LINEAR.md`](design/LINEAR.md) — Linear project structure
+- [`notes/text/25.03.2026 remilink - competitors`](notes/text/25.03.2026%20remilink%20-%20competitors) — Raw competitor analysis
