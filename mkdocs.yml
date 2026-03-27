@@ -1,0 +1,39 @@
+site_name: Remilink Documentation
+docs_dir: docs
+site_dir: mkdocs_site
+dev_addr: 127.0.0.1:8001
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.path
+  palette:
+    scheme: default
+    primary: orange
+    accent: white
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; Remilink
+
+nav:
+  - Home: index.md
+  - Strategy:
+      - Positioning: strategy/positioning.md
+      - Services: strategy/services.md
+      - ICP: strategy/icp.md
+      - Go-to-Market: strategy/gtm.md
+      - Competitors: strategy/competitors.md
+      - Gaps & Open Items: strategy/gaps-and-open.md
+  - Website:
+      - Spec: website/spec.md
+      - Design Brief: website/design-brief.md
+      - Backlog: website/backlog.md
+  - Ideas & Todos: ideas.md
+  - Reference:
+      - Founder Notes: reference/founder-notes.md
+      - Founder Brief (Answered): reference/founder-brief-answered.md
+      - Telegram Pipeline: reference/telegram-pipeline.md
+      - Voice Drafting System: reference/voice-drafting-system.md

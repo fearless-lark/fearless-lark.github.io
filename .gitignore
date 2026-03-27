@@ -1,2 +1,8 @@
 agents.md
 brandbook/*
+.venv/
+mkdocs_site/
+.requirements/
+.serena/
+docs/notes/
+.competitor-lookup.md
