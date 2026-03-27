@@ -596,25 +596,25 @@ The founder wants a VP-level visitor to say to a colleague: "I found potentially
 
 ### Analyzed Competitors (from `docs/notes/text/`)
 
-#### 1. coxit.co (✅ Done)
+#### 1. Competitor A (✅ Done)
 **What they do well**: Stylish website, specific case studies with real client names, founders info and photo, FAQ section, services menu specific to 4 options, collapsed Discovery blocks, clear process with real photos, digestible text, relevant blog posts, additional CTA (leave email, get discovery artifacts sample)
 **What they get wrong**: No domain selection (generic "Dedicated Engineers & Custom AI/ML Development"), confusing use case navigation, overdesigned page elements, blog design doesn't match site, discovery artifact CTA poorly designed
 **Questionable**: Embedded Calendly — founder prefers submission form
 **How we're different**: They're engineers trying to do AI; we specialize in AI. We have a clear framework. Our expertise allows consulting. We're AI-native with own workflows.
 
-#### 2. shelpuk.com (✅ Done)
+#### 2. Competitor B (✅ Done)
 **What they do well**: Strong social proof (Clutch badges), "We build our own AI coding tools," light/non-pressure design, clear industries with real person reps, strong case studies with real clients and feedback, nice blog from developer perspective, services described in weeks with price ranges, privacy-respecting form
 **What they get wrong**: Main page overloaded (20-40 seconds to read), looks engineer-made without UI/UX, too much text in Industries, feels text-heavy despite moderate actual content (due to plain design)
 **Questionable**: "AI Tools for Software Development" practical guide — unclear if serves end goal, ISO/IEC compliance mention — needs validation, doesn't mention PoC/MVP/Production phases
 **How we're different**: We emphasize transparency, code ownership, AI-nativeness, and clear project workflow
 
-#### 3. blackthorn.ai (✅ Done)
+#### 3. Competitor C (✅ Done)
 **What they do well**: Stylish (with some classic/Accenture notes), use cases, team, FAQ, founder likes the concept overall
 **What they get wrong**: Some sections overdesigned, interfere with content perception — looks nice but drains the "user content token budget"
 **Questionable**: No methodology description (Discovery/PoC/MVP/Production) — might aim at clients ready to invest large sums upfront
 **How we're different**: World-level quality at 3–5x cheaper, AI-native speed, clear standardized approach, consulting and AI audit capability
 
-#### 4. parslabs.org (✅ Done)
+#### 4. Competitor D (✅ Done)
 **What they do well**: Very specific on conversational AI, minimalistic and clear design
 **What they get wrong**: Not clear in first 5 seconds it's outsourcing not a product company, too plain — looks vibecoded without professional UI/UX
 **How we're different**: Broader specialization
@@ -622,8 +622,8 @@ The founder wants a VP-level visitor to say to a colleague: "I found potentially
 ### Cross-Competitor Pattern
 Several competitors don't mention Discovery/PoC/MVP/Production phases at all. The founder wonders whether this is because they "have a better paradigm," are "explicitly not mentioning it," or "aim at clients ready to invest large sums upfront." This is a strategic signal: RemiLink's explicit methodology transparency could be a differentiator — or could scare away certain clients. Unresolved.
 
-#### 5. skywell.software (❌ TODO)
-#### 6. dataforest.ai (❌ TODO)
+#### 5. Competitor E (❌ TODO)
+#### 6. Competitor F (❌ TODO)
 
 ---
 
@@ -680,7 +680,7 @@ With AI accelerating development speed:
   - Would need to "sit down and validate everything, not just write code but do analytics, figure out fields with different meanings"
   - The agentic system would need to be built during this project as a proof point
 - [ ] Create a downloadable PDF describing RemiLink's approach (for prospects to share internally)
-- [ ] Complete competitor analysis (skywell.software and dataforest.ai remaining)
+- [ ] Complete competitor analysis (Competitor E and Competitor F remaining)
 
 ### Website
 - [ ] Develop the website as the primary sales conversion tool
@@ -690,7 +690,7 @@ With AI accelerating development speed:
 - [ ] Invite people for team photo opportunity (combined with birthday/social event)
 - [ ] Define design system: colors, forms, typography
 - [ ] Create a detailed site plan before development
-- [ ] Consider a "privacy-respecting" note on the contact form (inspired by shelpuk.com)
+- [ ] Consider a "privacy-respecting" note on the contact form (inspired by Competitor B)
 - [ ] Consider showing founder's photo or LinkedIn link next to the contact form (to humanize and increase submissions)
 - [ ] Distribute branded t-shirts for team photo event
 
@@ -726,7 +726,7 @@ With AI accelerating development speed:
 - [ ] Decide how to present timelines/costs without scaring prospects
 - [ ] Resolve transparency vs. competitive presentation tension
 - [ ] Determine whether to pursue the "plug-in recommendation system" startup idea
-- [ ] Evaluate ISO/IEC compliance mention (inspired by shelpuk.com)
+- [ ] Evaluate ISO/IEC compliance mention (inspired by Competitor B)
 
 ---
 
@@ -847,12 +847,12 @@ A 150-person auto parts retailer with 50,000 SKUs is a better fit than a 5,000-p
 | Internal Name | Public Label | Why This Name |
 |---|---|---|
 | AI Audit / Free 2h Call | **AI Strategy Session** | "Audit" sounds like you're looking for problems. "Strategy Session" sounds like you're looking for opportunities. The free 2h and paid week versions are tiers of the same thing. |
-| Discovery | **Discovery & Blueprint** | "Blueprint" signals a tangible deliverable, not just "we talk for a week." Coxit also uses "Discovery" — it's industry-understood. Adding "Blueprint" differentiates. |
+| Discovery | **Discovery & Blueprint** | "Blueprint" signals a tangible deliverable, not just "we talk for a week." Competitor A also uses "Discovery" — it's industry-understood. Adding "Blueprint" differentiates. |
 | POC | **Concept Validation** | Don't abbreviate "POC" — non-technical buyers don't know what it means. "Validation" says "we're genuinely testing whether this works" (honest, aligned with brand). "Confirmation" was considered but rejected — it implies the answer is already known and you're just rubber-stamping, which is the opposite of what happens. |
 | MVP | **Production-Ready Build** | "MVP" has a startup connotation that enterprise buyers associate with "unfinished." "Production-Ready Build" says what it actually is — real engineering, integration, deployment. |
 | Production | **Scale & Optimize** | Clear. Goes to all users, all products, with monitoring and guardrails. |
 
-**Framing**: A journey, not a menu. On the site: "How We Work: AI Strategy Session → Discovery & Blueprint → Concept Validation → Production-Ready Build → Scale & Optimize." This is the differentiator — most competitors (blackthorn.ai, shelpuk.com) don't show methodology at all. Coxit shows 4 phases but theirs are operational ("Team Assembly"). RemiLink's map to what the *client* gets at each step.
+**Framing**: A journey, not a menu. On the site: "How We Work: AI Strategy Session → Discovery & Blueprint → Concept Validation → Production-Ready Build → Scale & Optimize." This is the differentiator — most competitors (Competitor C, Competitor B) don't show methodology at all. Competitor A shows 4 phases but theirs are operational ("Team Assembly"). RemiLink's map to what the *client* gets at each step.
 
 ---
 

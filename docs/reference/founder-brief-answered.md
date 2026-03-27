@@ -185,16 +185,16 @@ title: "[CLAUDE] RemiLink Founder Brief — Answered"
 Provided in `docs/notes/text/25.03.2026 remilink - competitors`.
 
 **4 competitors analyzed**:
-1. **coxit.co** — Engineers trying to do AI; stylish site but confusing navigation
-2. **shelpuk.com** — Former AI engineer like us; strong social proof but overloaded site
-3. **blackthorn.ai** — Stylish but overdesigned; no methodology description
-4. **parslabs.org** — Specific on conversational AI but too plain; unclear it's outsourcing
+1. **Competitor A** — Engineers trying to do AI; stylish site but confusing navigation
+2. **Competitor B** — Former AI engineer like us; strong social proof but overloaded site
+3. **Competitor C** — Stylish but overdesigned; no methodology description
+4. **Competitor D** — Specific on conversational AI but too plain; unclear it's outsourcing
 
-**2 remaining TODO**: skywell.software, dataforest.ai
+**2 remaining TODO**.
 
 **Visual reference**: antigravity.google (already established in Design Brief)
 
-**What RemiLink explicitly doesn't want to look like**: Generic "everything for everyone" site; overloaded/text-heavy like shelpuk.com; vibecoded without professional UI/UX like parslabs.org
+**What RemiLink explicitly doesn't want to look like**: Generic "everything for everyone" site; overloaded/text-heavy like Competitor B; vibecoded without professional UI/UX like Competitor D
 
 ---
 

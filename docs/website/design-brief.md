@@ -1,14 +1,10 @@
----
-title: "[CODEX] Remilink Design Brief"
----
+> Part of [RemiLink Website](../index.md). Updated 26.03.2026.
 
-# Remilink Website — Design Brief
+# Design Brief
 
 ## Primary design reference
 
 **antigravity.google** — a product marketing site for an AI developer tool by Google.
-
-Reference screenshots saved in `.plan/reference/` (see below for what to capture).
 
 This site is the visual north star for the Remilink rebuild. Every layout decision, spacing choice, and visual treatment should be measured against this reference. When in doubt, go closer to the reference, not further.
 
@@ -41,8 +37,8 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 
 **For Remilink:**
 - "REMILINK" wordmark (brand gradient) on far left
-- Nav links: Services, Case Studies, Industries, Blog, Company/About
-- CTA button: primary conversation CTA, exact copy TBD, visually emphasized as the main form-entry path
+- Nav links: Services, Case Studies, Industries, About, Contact (no Blog in v1)
+- CTA button: "Discuss Your AI Project" — orange pill, visually emphasized as the main form-entry path
 - Drop the current blurred glass `backdrop-filter` header entirely
 - Drop the current `border-bottom: 1px solid rgba(...)` line
 - Sticky position is fine, but keep it visually flat
@@ -62,7 +58,7 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 
 **For Remilink:**
 - Full-width white background (drop the current `radial-gradient` orange wash)
-- Canvas particle effect behind content (see particle spec in PRD Section 7)
+- Canvas particle effect behind content (see particle spec in [spec.md](spec.md))
 - Centered REMILINK wordmark in brand gradient, larger than current header logo
 - Headline below: specific, not poetic
 - Support text below headline: one sentence
@@ -152,7 +148,7 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 **For Remilink:**
 - Use cards ONLY for:
   - Homepage services overview (3 cards)
-  - Blog post teasers (2-3 cards)
+  - Blog post teasers (2-3 cards) — v2, after blog is added
 - Cards should be simpler than current: drop the bullet lists, drop the hover lift transform
 - Subtle border, no shadow, generous padding
 - Max 3 per row, never 4
@@ -168,7 +164,7 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 - Option A: switch to dark CTAs to match the reference more closely
 - Option B: keep orange CTAs as the brand accent (current approach)
 - **Recommendation: keep orange CTAs.** The orange is Remilink's brand color and serves as the single accent in an otherwise monochrome site. A dark CTA would blend into the text. Orange CTAs will pop more in the restrained layout.
-- Header CTA: orange pill, exact copy TBD, should imply a low-pressure conversation rather than an instant calendar booking
+- Header CTA: "Discuss Your AI Project" — orange pill, implies a low-pressure conversation rather than an instant calendar booking
 - Ghost links: keep current style (text + arrow, no border)
 
 ### 10. Footer
@@ -203,16 +199,6 @@ This is the opposite of a typical SaaS landing page with stacked card grids, ani
 | Code editor screenshots | Outcome metrics, team photos, process visuals |
 | Dark pill CTA | Orange pill CTA |
 | Subtle gradient behind visuals | Subtle gradient behind visuals (warm orange tint) |
-
-## Reference screenshots
-
-Save the following screenshots to `.plan/reference/`:
-- `header.png` — flat header with nav and CTA
-- `hero.png` — hero with particles and centered brand
-- `dropdown.png` — clean nav dropdown
-- `feature-section.png` — text/visual split with gradient background
-
-These are the source of truth for visual direction. When making design decisions during implementation, compare against these screenshots.
 
 ## The one-sentence design mandate
 

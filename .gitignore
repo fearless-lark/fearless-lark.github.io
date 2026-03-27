@@ -5,3 +5,4 @@ mkdocs_site/
 .requirements/
 .serena/
 docs/notes/
+.competitor-lookup.md

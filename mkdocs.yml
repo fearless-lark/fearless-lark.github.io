@@ -6,18 +6,12 @@ dev_addr: 127.0.0.1:8001
 theme:
   name: material
   features:
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # - navigation.sections
     - navigation.top
     - navigation.path
   palette:
     scheme: default
     primary: orange
     accent: white
-  # font:
-  #   text: Open Sans
-  #   code: Roboto Mono
 
 extra:
   generator: false
@@ -25,28 +19,21 @@ extra:
 copyright: Copyright &copy; Remilink
 
 nav:
-  - '[CODEX] Home': index.md
-  - '[CODEX] Working Context': WORKING_CONTEXT.md
-  - '[CODEX] Founder Inputs':
-      - '[CODEX] Overview': founder-inputs/index.md
-      - '[CODEX] Company Thesis': founder-inputs/company-thesis.md
-      - '[CODEX] Offers and ICP': founder-inputs/offers-and-icp.md
-      - '[CODEX] Delivery and Commercials': founder-inputs/delivery-and-commercials.md
-      - '[CODEX] Brand and Site Requirements': founder-inputs/brand-and-site-requirements.md
-      - '[CODEX] Competition and Inspirations': founder-inputs/competition-and-inspirations.md
-      - '[CODEX] Content and Growth': founder-inputs/content-and-growth.md
-      - '[CODEX] Idea Backlog': founder-inputs/idea-backlog.md
-      - '[CODEX] Open Questions': founder-inputs/open-questions.md
-      - '[CLAUDE] Founder Notes': Remilink_FounderNotes.md
-      - '[CLAUDE] Founder Brief Answered': Remilink_FounderBrief_Answered.md
-  - '[BOTH] Action Plan': Remilink_ActionPlan.md
-  - '[CODEX] Foundation': Remilink_FOUNDATION.md
-  - '[CODEX] Founder Brief': Remilink_FounderBrief.md
-  - '[BOTH] Strategy': Remilink_Strategy.md
-  - AI SMM:
-      - '[CODEX] Telegram to LinkedIn Content Pipeline': 'ai_smm/Telegram-to-LinkedIn content pipeline.md'
-      - '[CODEX] LinkedIn Voice Drafting System Feedback': ai_smm/linkedin_voice_drafting_system_feedback.md
-  - Design:
-      - '[CODEX] Design Brief': design/DESIGN_BRIEF.md
-      - '[CODEX] Linear': design/LINEAR.md
-      - '[CODEX] PRD': design/PRD.md
+  - Home: index.md
+  - Strategy:
+      - Positioning: strategy/positioning.md
+      - Services: strategy/services.md
+      - ICP: strategy/icp.md
+      - Go-to-Market: strategy/gtm.md
+      - Competitors: strategy/competitors.md
+      - Gaps & Open Items: strategy/gaps-and-open.md
+  - Website:
+      - Spec: website/spec.md
+      - Design Brief: website/design-brief.md
+      - Backlog: website/backlog.md
+  - Ideas & Todos: ideas.md
+  - Reference:
+      - Founder Notes: reference/founder-notes.md
+      - Founder Brief (Answered): reference/founder-brief-answered.md
+      - Telegram Pipeline: reference/telegram-pipeline.md
+      - Voice Drafting System: reference/voice-drafting-system.md
