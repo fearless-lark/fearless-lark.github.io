@@ -36,7 +36,7 @@ The website becomes the primary salesman. Content and Astro build run in paralle
 | 10 | **Hero particle effect** | Canvas island: 60-100 dots, gentle drift, cursor influence, orange accent dots. Mobile: static fallback or reduced particles. |
 | 11 | **Build pages** | Home (hero + proof + services overview + trust + CTA), Services, Case Studies, Industries, About, Contact. No blog in v1. |
 | 12 | **Contact form** | Form → info@remilink.com via formsubmit.co. Simple textarea. Founder photo next to form. Success state. |
-| 13 | **SEO basics** | sitemap.xml (Astro integration), robots.txt, JSON-LD (Organization on home), OG tags, canonical URLs. |
+| 13 | **SEO + GEO foundations** | sitemap.xml (Astro integration), robots.txt, JSON-LD (Organization + Service schemas), OG tags, canonical URLs, keyword-targeted meta descriptions per page, llms.txt for AI discoverability. See [leadgen.md](../strategy/leadgen.md) for keyword clusters. |
 
 ### Launch
 
@@ -68,5 +68,5 @@ Content writing (1-6)  ←── parallel ──→  Astro setup (7-10)
 | 18 | **Blog setup** | Astro content collection for markdown posts. Blog index page. Add Blog to nav. |
 | 19 | **Migrate 4 existing blog posts** | HTML → markdown with frontmatter. Review/update content for tone and accuracy. |
 | 20 | **Write first new article** | "When NOT to use an LLM" — trust-building, contrarian, gets shared. |
-| 21 | **Add llms.txt** | AI discoverability. Low effort, nice signal. |
-| 22 | **404 page** | Clean, consistent, link home. |
+| 21 | **404 page** | Clean, consistent, link home. |
+| 22 | **GEO monitoring** | Check what ChatGPT/Claude/Perplexity say when asked "recommend an AI implementation partner for e-commerce." Track, adjust content accordingly. |

@@ -9,11 +9,13 @@ RemiLink (remilink.com) is an AI outsourcing/implementation company. This repo (
 ```
 docs/
 ├── index.md              → Reading order
-├── strategy/             → Business truth (6 focused files)
+├── strategy/             → Business truth (8 focused files)
 │   ├── positioning.md    → What RemiLink is, pillars, AI thesis
 │   ├── services.md       → Methodology, labels, pricing rules, verticals
-│   ├── icp.md            → Target companies, buyer personas, fears
-│   ├── gtm.md            → LinkedIn, CTA, contact flow, content strategy
+│   ├── icp.md            → Target companies, buyer personas, geography, fears
+│   ├── gtm.md            → CTA, contact flow, conversion strategy
+│   ├── leadgen.md        → Lead gen channels, outreach model, pipeline math
+│   ├── smm.md            → LinkedIn program, articles, content production
 │   ├── competitors.md    → 4+2 analyses, differentiation
 │   └── gaps-and-open.md  → Honest gaps, open items, claims discipline
 ├── website/              → Everything to build the site
@@ -44,8 +46,9 @@ Documentation restructured and up to date. All major strategic decisions made. R
 - **Domains**: E-commerce (primary), EdTech (secondary/emerging), In-house AI/MLOps (secondary)
 - **Methodology**: AI Strategy Session → Discovery & Blueprint ($5-10K) → Concept Validation (from $15K/mo) → Production-Ready Build (from $15K/mo) → Scale & Optimize
 - **ICP**: Mid-sized+ companies with complex catalogs and/or operational complexity
+- **Geography**: US primary, UK secondary (Benelux/Nordics/DACH deprioritized)
 - **Primary CTA**: "Discuss Your AI Project" → info@remilink.com (via formsubmit.co) → founder responds within 24h
-- **Primary channel**: LinkedIn
+- **Primary channels**: LinkedIn organic + agency partnerships + Apollo/Clay outbound
 
 ## Key Decisions
 
@@ -56,4 +59,6 @@ Documentation restructured and up to date. All major strategic decisions made. R
 - About page: founder-first, no team photos needed
 - Secondary CTA (PDF): deferred to post-launch
 - Blog: deferred to v2
+- SEO/GEO: keyword clusters defined, llms.txt in v1, Service schema on all pages
+- Lead gen: 7 channels ranked (agency partnerships → job signals → Apollo/Clay → LinkedIn organic → Clutch → communities → SEO/GEO)
 - Tech stack: Astro + TypeScript + GitHub Pages (migration from current plain HTML)

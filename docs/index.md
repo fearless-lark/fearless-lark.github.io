@@ -5,9 +5,11 @@
 1. [Positioning](strategy/positioning.md) — What RemiLink is, why it exists
 2. [Services](strategy/services.md) — What we sell, how it's priced
 3. [ICP](strategy/icp.md) — Who we sell to
-4. [Go-to-Market](strategy/gtm.md) — How we reach them, CTA, content plan
-5. [Competitors](strategy/competitors.md) — How we differentiate
-6. [Gaps & Open Items](strategy/gaps-and-open.md) — What's honest, what's unresolved
+4. [Go-to-Market](strategy/gtm.md) — CTA, contact flow, conversion strategy
+5. [Lead Generation](strategy/leadgen.md) — Channels, outreach model, pipeline math
+6. [SMM](strategy/smm.md) — LinkedIn program, articles, production
+7. [Competitors](strategy/competitors.md) — How we differentiate
+8. [Gaps & Open Items](strategy/gaps-and-open.md) — What's honest, what's unresolved
 
 ## Website (for building)
 

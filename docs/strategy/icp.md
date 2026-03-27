@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 26.03.2026.
+> Part of [RemiLink Strategy](../index.md). Updated 27.03.2026.
 
 # ICP & Buyer Personas
 
@@ -9,6 +9,21 @@
 Why complexity over headcount: A 150-person auto parts retailer with 50,000 SKUs is a better fit than a 5,000-person company selling 3 products. Company size is a proxy; complexity is the real qualifier. "And/or" is deliberate — e-commerce clients have catalog complexity, in-house AI clients have operational complexity, some have both.
 
 **Ideal**: Large companies (500+ employees) where long-term, larger-scale solutions are needed — sustained engagement rather than quick POCs.
+
+## Geographic Focus
+
+**Primary market: United States**
+
+Why US first:
+- Massive lead pool (5,000-10,000+ mid-sized e-commerce companies vs. hundreds in Benelux/Nordics)
+- English-only team — rules out DACH, limits Southern Europe
+- Faster decision cycles, less procurement bureaucracy than EU enterprise
+- $15-18K/mo pricing reads as "specialized but efficient" vs. US-based AI consultancies at $30-50K+
+- Strong overlap with US East Coast business hours for live calls
+
+**Secondary: UK** — Adds 1,000-2,000 companies, same language, similar buyer behavior.
+
+**Explicitly deprioritized**: DACH (language barrier), Benelux/Nordics (too small — <500 qualified leads in LinkedIn Sales Navigator tests), Southern Europe (longer sales cycles, price sensitivity).
 
 ## Buyer Roles
 

@@ -18,6 +18,10 @@ Items marked with **(decided)** have already been captured in the strategy or we
 - Define tighter ICP hypotheses before scaling outreach *(source: idea-backlog.md)*
 - Figure out how to consistently source enough POC opportunities if faster delivery compresses engagement length *(source: idea-backlog.md)*
 - Research how buyers actually select vendors — founder explicitly says "I have no idea" *(source: founder-notes.md §2)*
+- LinkedIn Sales Navigator tested and dismissed — too few leads in Benelux/Nordics (<500), poor conversion rates at $15K+ price point *(source: session 27.03.2026)*
+- eCommerceFuel (paid community) as potential lead source — serious 7-8 figure store owners *(source: session 27.03.2026)*
+- Crunchbase / PitchBook for recently funded e-commerce companies (confirmed budget) *(source: session 27.03.2026)*
+- Conference attendee lists as lead source — Shoptalk, NRF, eTail publish speaker/sponsor lists *(source: session 27.03.2026)*
 
 ## Offerings & Packaging
 
@@ -71,6 +75,15 @@ Items marked with **(decided)** have already been captured in the strategy or we
 ### Content Ownership
 - Who owns content editing, review, and publishing once drafts exist? *(source: open-questions.md)*
 - Which toolchain will actually power content capture and outreach? *(source: open-questions.md)*
+
+## SEO & GEO
+
+- Monitor what AI models (ChatGPT, Claude, Perplexity) say when asked "recommend an AI implementation partner for e-commerce" — track over time *(source: session 27.03.2026)*
+- Track which third-party sites AI models cite when recommending competitors — get listed on those sites *(source: session 27.03.2026)*
+- Consider Ahrefs or SEMrush for keyword position tracking post-launch *(source: session 27.03.2026)*
+- Explore schema.org Service markup beyond basics — e.g., ServiceChannel, hasOfferCatalog *(source: session 27.03.2026)*
+- Test whether blog posts or case studies rank faster for target keywords — informs content priority *(source: session 27.03.2026)*
+- Investigate whether AI model citations correlate with specific content structures (FAQs, lists, comparison tables) *(source: session 27.03.2026)*
 
 ## Website & Brand
 
