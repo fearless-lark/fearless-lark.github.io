@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 26.03.2026.
+> Part of [RemiLink Strategy](../index.md). Updated 27.03.2026.
 
 # Gaps, Open Items & Claims Discipline
 
@@ -15,7 +15,7 @@ The company will look stronger by being specific and restrained than by stretchi
 
 ## Honest Gaps
 
-1. **No sales pipeline** — "Sales are not set up at all"
+1. **Sales pipeline partially defined** — Geographic target (US primary, UK secondary) and 7 lead gen channels defined. Execution not started. See [leadgen.md](leadgen.md)
 2. **No analytics** — Nothing on current site (to be added post-launch)
 3. **Thin social proof** — Most case studies under NDA; most experience in classical ML/CV/NLP, not LLM/agents
 4. **Team vs. reality** — Network model, presented as a team (conscious trade-off)
@@ -30,7 +30,7 @@ The company will look stronger by being specific and restrained than by stretchi
 - [ ] Whether and when the "agentic POC" becomes a real offer
 - [ ] How hard to lead with EdTech
 - [ ] Remaining competitor analysis
-- [ ] Post-first-contact sales pipeline definition
+- [ ] Post-first-contact sales pipeline execution (channels defined, need to actually run them)
 - [ ] Which persona accounts to create first
 - [ ] Whether ISO/IEC compliance language helps or distracts
 - [ ] Whether to offer Discovery artifacts as secondary CTA
@@ -45,6 +45,9 @@ The company will look stronger by being specific and restrained than by stretchi
 - [x] formsubmit.co → keep (provides email hiding + DDoS protection)
 - [x] Starting monthly rate → $15,000–18,000/month
 - [x] Secondary CTA (PDF) → deferred to post-launch
+- [x] Geographic targeting → US primary, UK secondary (Benelux/Nordics/DACH deprioritized)
+- [x] Lead generation channels → Agency partnerships + job board signals + Apollo/Clay outbound + LinkedIn organic + Clutch + communities + SEO/GEO
+- [x] SEO/GEO strategy → keyword clusters defined, llms.txt in v1, JSON-LD Service schema, GEO monitoring in v2
 
 ## What's Done
 
