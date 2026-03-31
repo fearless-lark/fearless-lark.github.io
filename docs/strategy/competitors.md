@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 26.03.2026.
+> Part of [RemiLink Strategy](../index.md). Updated 31.03.2026.
 
 # Competitive Differentiation
 
@@ -9,21 +9,22 @@ Based on analysis of 4 competitors (2 remaining).
 - Generic positioning without domain focus ("Dedicated Engineers & Custom AI/ML Development")
 - Overdesigned elements that interfere with content
 - Looking like a product company instead of services
-- No visible methodology (no Discovery/POC/MVP/Production)
+- No visible methodology (no Discovery/POC/MVP/Production) or it's not conviniently accessible and easy for perception
 
-## Cross-Competitor Pattern
-Several competitors don't show Discovery/POC/MVP/Production at all. RemiLink's explicit methodology transparency is either a differentiator or a risk — unresolved. But the decision is to lean into transparency.
+## Cross-Competitor Patterns
+/note TODO this section
 
 ## Our Differentiation
 1. AI specialization (not engineers trying to do AI)
 2. Clear standardized methodology with public labels
 3. Transparency in estimates, timelines, and process
-4. AI-native workflows with enterprise tooling flexibility
-5. Full code ownership and human verification
-6. Consulting capability alongside delivery
-7. Data engineering done right
-8. Team expertise at individual prices
-9. World-class quality at lower cost (claim needs sourcing before site use)
+4. AI-native workflows with enterprise tooling flexibility and full code ownership with human verification
+5. Consulting capability alongside delivery
+6. Data engineering done right
+7. Team expertise at individual prices
+8. World-class quality at lower cost
+
+/note Instead of this list I would rather list a specific pillars listed in details in the "Positioning Pillars" section of the positioning document (docs/strategy/positioning.md) that defientiate us from the competitors.
 
 ## Competitor Highlights
 
@@ -34,3 +35,8 @@ Several competitors don't show Discovery/POC/MVP/Production at all. RemiLink's e
 **Competitor C**: Stylish with classic/Accenture feel, use cases, team, FAQ. Weak: overdesigned sections, no methodology description.
 
 **Competitor D**: Specific on conversational AI, minimalist. Weak: unclear it's services not product, too plain.
+
+/note this section has to be reworked. the whole idea of the detailed competitors analysis that was done is to gather an information and examples of what we should do on our website and what we should not. in a way that it can be used by: engineers, ui/ux designers, AI agents. we need to rework this document making sure it serves exactly the mentioned purpouse.
+
+/note the raw competitor analysis can be found in the "docs/notes/text/25.03.2026 remilink - competitors" document
+

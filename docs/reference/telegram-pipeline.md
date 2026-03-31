@@ -1,5 +1,5 @@
 ---
-title: "[CODEX] Telegram-to-LinkedIn Content Pipeline"
+title: "Telegram-to-LinkedIn Content Pipeline"
 ---
 
 # Telegram-to-LinkedIn content pipeline: a critical analysis

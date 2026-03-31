@@ -1,5 +1,5 @@
 ---
-title: "[CLAUDE] RemiLink Founder Brief — Answered"
+title: "RemiLink Founder Brief — Answered"
 ---
 
 # RemiLink Founder Brief — Answered

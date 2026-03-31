@@ -1,5 +1,5 @@
 ---
-title: "[CODEX] LinkedIn Voice Drafting System Feedback"
+title: "LinkedIn Voice Drafting System Feedback"
 ---
 
 # LinkedIn Voice Drafting System  

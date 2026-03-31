@@ -1,5 +1,5 @@
 ---
-title: "[CLAUDE] RemiLink — Structured Founder Notes"
+title: "RemiLink — Structured Founder Notes"
 ---
 
 # RemiLink — Structured Founder Notes
@@ -69,7 +69,7 @@ While personal, this context informs the authenticity of the brand voice and the
 - Anti-pressure: "If you want real value, leave a request. We will analyze it and connect you with a top specialist to discuss your specific task, no pressure. Our work is a pleasure for us, so in a friendly atmosphere we can discuss your task."
 - The founder is skeptical of tactics like "Get a response within 10 hours!" — considers this overplayed
 - The anti-hype framing is set against a backdrop of "information noise" — "информация повсюду, bullshit на каждом шагу каждые 5 минут"
-- The phrase "Трастовость в LA" (trust in value) appears as a closing shorthand for the entire brand philosophy
+- "Трастовость" (trust in value) appears as a closing shorthand for the entire brand philosophy
 
 ---
 
@@ -81,12 +81,10 @@ While personal, this context informs the authenticity of the brand voice and the
 - Engineering Manager
 - Product Owner / Product Manager
 - CEO / Founder
-- Potentially: HR (for certain content)
 
 ### Company Size
 - **Original range**: 100–2,000 employees (acknowledged as "a very big spread")
 - **Refined target (decided 26.03.2026)**: Mid-sized and larger companies with complex product catalogs and/or real operational complexity
-- Initial thought was 50+, but reconsidered — companies with ~100 people might not have the budget
 - **Ideal**: Large companies, possibly offline businesses with 500+ employees, where more long-term, larger-scale solutions are needed
 
 ### Company Types
@@ -622,9 +620,6 @@ The founder wants a VP-level visitor to say to a colleague: "I found potentially
 ### Cross-Competitor Pattern
 Several competitors don't mention Discovery/PoC/MVP/Production phases at all. The founder wonders whether this is because they "have a better paradigm," are "explicitly not mentioning it," or "aim at clients ready to invest large sums upfront." This is a strategic signal: RemiLink's explicit methodology transparency could be a differentiator — or could scare away certain clients. Unresolved.
 
-#### 5. Competitor E (❌ TODO)
-#### 6. Competitor F (❌ TODO)
-
 ---
 
 ## 13. Economics & Sustainability
@@ -923,4 +918,4 @@ This is true: there ARE specialists, they ARE selected per project, the founder 
 
 ---
 
-*Source files: `docs/notes/raw/25.03.2026 remilink - концепция аутсорсинг компании_ru.txt`, `docs/notes/raw/25.03.2026 remilink - специализация и стратегия_ru.txt`, `docs/notes/raw/25.03.2026 remilink - AI native разработка_ru.txt`, `docs/notes/raw/25.03.2026 remilink - сформировать идеи постов из голосовых заметок_ru.txt`, `docs/notes/text/25.03.2026 remilink - competitors`*
+*Source files: `docs/notes/audio/25.03.2026 remilink - концепция аутсорсинг компании_ru.txt`, `docs/notes/audio/25.03.2026 remilink - специализация и стратегия_ru.txt`, `docs/notes/audio/25.03.2026 remilink - AI native разработка_ru.txt`, `docs/notes/audio/25.03.2026 remilink - сформировать идеи постов из голосовых заметок_ru.txt`, `docs/notes/text/25.03.2026 remilink - competitors`*
