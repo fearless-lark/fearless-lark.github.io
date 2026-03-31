@@ -4,9 +4,9 @@
 
 ## Target Companies
 
-**Primary**: Mid-sized and larger companies with complex product catalogs.
+**Overall ICP**: Mid-sized and larger companies (100-2,000 employees) with complex product catalogs and/or real operational complexity. Size is a proxy; complexity is the real qualifier.
 
-**Ideal**: Large companies (500+ employees) where long-term, larger-scale solutions are needed. The ideal scenario is a sustained engagement rather than quick POCs.
+**Ideal**: Large companies (500-1,000 employees) where long-term, larger-scale solutions are needed. The ideal scenario is a sustained engagement rather than quick POCs.
 
 ## Geographic Focus
 
