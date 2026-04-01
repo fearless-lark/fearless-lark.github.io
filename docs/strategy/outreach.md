@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 31.03.2026.
+> Part of [RemiLink Strategy](../index.md). Status: DRAFT. Updated 01.04.2026.
 
 # Outreach & Lead Generation
 

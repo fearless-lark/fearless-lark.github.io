@@ -11,6 +11,7 @@
 7. [Outreach](strategy/outreach.md) — Lead generation, database building, response tracking
 8. [Competitors](strategy/competitors.md) — How we differentiate
 9. [Gaps & Open Items](strategy/gaps-and-open.md) — What's honest, what's unresolved
+10. [Brand Identity](strategy/brand-identity.md) — Logo, colors, typography, voice, design system
 
 ## Website (for building)
 

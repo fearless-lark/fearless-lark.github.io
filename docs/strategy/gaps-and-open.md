@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 31.03.2026.
+> Part of [RemiLink Strategy](../index.md). Status: APPROVED. Updated 01.04.2026.
 
 # Gaps and Open Items
 
