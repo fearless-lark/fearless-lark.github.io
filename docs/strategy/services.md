@@ -1,71 +1,36 @@
-> Part of [RemiLink Strategy](../index.md). Updated 26.03.2026.
+> Part of [RemiLink Strategy](../index.md). Status: APPROVED. Updated 01.04.2026.
 
 # Services
 
 ## Service Methodology
 
-Framed as a journey on the site — not a menu.
+Framed as a journey on the site — not a menu. We move to each next phase only when the previous step is successfully secured.
 
-| Public Label | What Happens | Duration | Pricing | Team |
-|---|---|---|---|---|
-| **AI Strategy Session** | Free 2h call or full-week audit. Review business ideas, examine tech stack, surface opportunities, identify what's NOT feasible. | 2h – 1 week | Free (2h) or ~$5,000 (week) | Founder/Architect, BA |
-| **Discovery & Blueprint** | Meet stakeholders, gather requirements, create technical blueprint. Deliverables: VBS, PRD, Technical Blueprint, Commercial Proposal. **Artifacts are portable** — client can take them anywhere. | 1–3 weeks | $5,000–$10,000 | Architect, 1 dev, 1 BA |
-| **Concept Validation** | Validate AI concept with real data, no heavy integrations. Demo with real data, limited scope. Prove one category, not ten. | 2–4 months | From $15,000/month | Architect (PT), 2 devs, 1 BA, 1 PM (PT) |
-| **Production-Ready Build** | Integrate into main app, deploy, prepare for production. Real engineering begins. | 3–5 months | From $15,000/month | Same + tester |
-| **Scale & Optimize** | Full scaling, monitoring, guardrails, accuracy/speed optimization, production data pipelines. | 4–7 months | Varies (team scales) | Growing team |
+| Public Label | What Happens | Deliverables | Duration | Pricing | Team |
+|---|---|---|---|---|---|
+| **AI Strategy Session** (free) | Review business ideas, examine tech stack, surface opportunities, identify what's NOT feasible. | Verbal feasibility assessment, opportunity mapping, recommendation on next steps. | 2 hours | Free | AI Architect |
+| **AI Strategy Session** (paid) | Full-week comprehensive audit. Deep dive into business context, data landscape, technical readiness. | Written feasibility assessment with timelines, costs, quality expectations. Identification of non-feasible paths and data gaps. | 1 week | ~$5,000 | AI Architect, BA |
+| **Discovery & Blueprint** | Meet stakeholders, gather requirements, create technical blueprint. Close collaboration with the client's business — we dive into all specifics of the business problem and technical nuances (infrastructure, data, etc.). We form the scope of the first iteration, making sure it's representative of the whole solution. | Development-ready specification for Concept Validation (PRD), high-level specification of the general solution vision, WBS, SOW, Technical Blueprint, Commercial Proposal. **Artifacts are portable** — client can take them anywhere. | 1–3 weeks | ~$5,000/week | 1 AI Architect FTE, Engineers PTE (DevOps, MLOps, ML Engineer, Backend Engineer, Data Engineer), 1 BA |
+| **Concept Validation** | Validate AI concept with real data, no heavy integrations. Limited representative scope. | Working demo with real data. | 2–4 months | From $15,000/month | Architect (PT), 1-2 devs, 1 BA, 1 PM (PT) |
+| **Production-Ready Build** | Integrate the validated solution into the client's systems, deploy, prepare for production. Real engineering begins. On this phase we add Software Engineers who start working on integrations and scalability alongside the ML Engineers — before that, all work is done only by MLEs, which saves the client's budget significantly. | Production-grade solution for subset of users/products. | 3–5 months | From $15,000/month | Same + SE, tester |
+| **Scale & Optimize** | Full scaling, monitoring, guardrails, accuracy/speed optimization, production data pipelines. | Full production system with monitoring and guardrails. | 4–7 months | Varies (team scales) | Growing team |
+
+**Agentic Concept Validation***: Available as an option alongside standard Concept Validation. Uses our agentic AI-driven workflows for approximately 30-40% faster/cheaper delivery. Recommended for projects where speed of validation is critical.
 
 **Pricing model**: Fixed for Discovery/Audit. Can be fixed for Concept Validation. Primarily T&M for larger phases.
 
-**Total lifecycle**: ~8–9 months ("like having a baby").
+**Vendor management**: We are flexible and adjust to specific client requirements on every project. We handle LLM vendor management — subscriptions, workflows, cost of tooling. On-prem development without cloud AI is also an option. The client doesn't worry about vendor logistics.
 
-**Vendor management**: RemiLink handles LLM vendor management — subscriptions, workflows, cost of tooling. The client doesn't worry about it. On-prem: can guarantee all development stays on local infrastructure.
+All positioning pillars apply across every phase of the engagement — see [Positioning Pillars](positioning.md#positioning-pillars). Pricing display rules live in [gtm.md](gtm.md#pricing-display-rules).
 
-**Cross-cutting differentiators** (apply to all phases):
-- Data engineering best practices as foundation
-- Enterprise tooling flexibility (always align tools/models with client, including on-prem)
-- Team expertise at individual prices (full bench behind every engagement)
-- Weekly sprint calls, demos, and reports — "the client constantly knows what's happening"
-- Active budget protection during scoping
-- Post-project availability for questions
+---
 
-## Service Label Reasoning
+## Appendix: Service Label Reasoning
 
 | Internal Name | Public Label | Why This Name |
 |---|---|---|
 | AI Audit / Free Call | **AI Strategy Session** | "Audit" = looking for problems. "Strategy Session" = looking for opportunities. |
 | Discovery | **Discovery & Blueprint** | "Blueprint" signals a tangible deliverable. "Discovery" alone = "we just talk." |
-| POC | **Concept Validation** | Don't abbreviate. "Validation" = genuinely testing. "Confirmation" was rejected (implies rubber-stamping). |
+| POC | **Concept Validation** | Don't abbreviate. "Validation" = genuinely testing. |
 | MVP | **Production-Ready Build** | "MVP" = startup connotation, "unfinished." This is real engineering + deployment. |
 | Production | **Scale & Optimize** | Clear. All users, all products, monitoring, guardrails. |
-
-## Pricing Display Rules
-
-**Principle**: "Be transparent about the steps and the entry cost, let the conversation handle the rest."
-
-- **Show on site**: Entry costs and monthly rates
-- **Don't show**: Project totals or durations next to prices
-- **Why**: "$15K/mo" feels manageable. "$60K total" invites comparison shopping. Same money, different psychology. Durations live in the methodology section, prices in the pricing section — never in the same table cell.
-
-## Lead Vertical: AI Shopping Assistants for E-Commerce
-
-The clearest concrete offering: intelligent search agents for complex product catalogs.
-- Natural text queries against structured AND unstructured data (descriptions, reviews)
-- Sales, consulting, and recommendation capabilities
-- Target: specialized stores with thousands of products and complex navigation (auto parts, building materials, clothing, cosmetics)
-
-## Secondary: Secure In-House AI Enablement
-
-AI systems deployed on the client's own infrastructure for security-sensitive organizations:
-- Task analysis, capacity estimation, cost assessment, setup assistance
-- All data stays in-house
-- Target: 50–1,000+ employees in financial, healthcare, insurance sectors
-
-## Emerging: EdTech
-
-Currently building a CRM for an online school. Possible AI use cases (tutoring agents, RAG for educational materials) identified but not yet developed. "We are not really experts in this sphere." Present carefully until proof is stronger.
-
-## Shelved
-
-- **Computer Vision**: Capability exists, deliberately shelved (niche market, hard to find clients)
-- **CRM development**: No clear AI angle. Small companies can't afford it, big ones already have it.
-- **Agentic POC variant**: 30–40% cheaper/faster POC using agentic approach. System doesn't fully exist yet — would need to be built during a project. Aspirational, not sellable today.

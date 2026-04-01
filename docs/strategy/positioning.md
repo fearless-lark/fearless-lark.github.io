@@ -1,42 +1,64 @@
-> Part of [RemiLink Strategy](../index.md). Updated 26.03.2026.
+> Part of [RemiLink Strategy](../index.md). Status: APPROVED. Updated 01.04.2026.
 
 # Positioning
 
-## What RemiLink Is
+## What remilink Is
 
-RemiLink is a founder-led AI implementation partner. We diagnose business problems, choose the right approach, validate it before the client overspends, and carry proven work through to production.
+remilink reduces the risk of AI investment. We validate solutions before you build them, and carry proven work through to production.
 
-**Brand name**: "Remi" = friend/helper. The company should feel approachable, trustworthy, and expert — not corporate, aggressive, or hype-driven.
+The team is led by architects with deep academic background in mathematics and statistics, and 10+ years of hands-on AI/ML experience - from senior engineering through VP-level roles in both outsourcing firms and product companies. Every project gets a senior architect personally involved as the final decision-maker.
 
-**Tagline** (working): "Validate fast, scale smart."
+**Brand name**: "Remi" = friend/helper. The company should feel approachable, trustworthy, and expert. Not corporate, aggressive, or hype-driven.
+
+**Tagline**: "Validate first. Build right. Scale smart."
 
 **What we are NOT**:
 - A generic "we do everything" AI shop
 - A staffing agency that provides AI engineers
 - A frontend development company ("We don't write frontend. Well, we can, but it's not what we offer.")
-- An adtech company (speech error in recordings — the domain is EdTech)
 
 ---
 
 ## Positioning Pillars
 
 ### 1. Honest Expertise
-We know what NOT to build, when NOT to use an LLM, and how to keep the client from wasting money. "Value and trust, not hype."
+We know what NOT to build, when NOT to use an LLM, and how to keep the client from wasting money. Active budget protection during scoping.
+
+Example: "If we need to prove search works in a category, we do it for ONE category, not ten."
 
 ### 2. Validation Before Scale
-Prove the concept before the client commits to full engineering. Risk reduction is the #1 concern for enterprise buyers. "If we need to prove search works in a category, we do it for ONE category, not ten."
+We validate before we build. You don't pay for what won't work. Risk reduction is the #1 concern for enterprise AI buyers because there is always uncertainty, and before we run tests we can rarely know if the expected quality is reachable and with what effort (is the data good enough, will custom model training be required, etc.).
 
 ### 3. AI-Native, Human-Owned Delivery
-Proprietary AI-driven workflows enable 30–40% faster development. But every piece of code is reviewed, validated, and tested by humans. **Enterprise tooling flexibility**: we always align tools and models with the client, including on-prem where required.
+Proprietary AI-driven workflows enable 15-20% faster development. But every piece of code is reviewed, validated, and tested by humans.
+
+We also offer experimental AI-driven workflows that show approximately 30-40% increase in velocity.*
+
+*Currently scoped to Concept Validation phases only.
 
 ### 4. Data Engineering Done Right
-AI solutions are only as good as the data pipelines underneath. We apply data engineering best practices as the foundation — something many competitors skip or do poorly.
+AI solutions are only as good as the data pipelines underneath. We apply data engineering best practices as the foundation. This is not on the surface, and many competitors skip or do it poorly.
 
-### 5. Team Expertise at Individual Prices
-Even on 1–2–3 person projects, the client gets access to the full bench of senior experts — engineers and architects across all AI disciplines. You pay for a small team but get the collective judgment of the whole house.
+### 5. Expert Team, No Overhead
+The client hires us to build a project. We assemble the right team — sometimes 1-2 engineers, sometimes more. But regardless of team size, every project gets the full bench of senior AI architects reviewing decisions, at no extra cost.
 
-### 6. Founder-Led Credibility
-BSc pure mathematics, MSc theoretical/applied statistics, 11 years in AI/ML (since 2015). Previous roles: Senior → Lead → Architect (outsourcing), Architect → Engineering Manager → VP of Data Science (product). Personally involved in every project as chief architect and final decision-maker.
+This means the client doesn't need to recruit, hire, or manage AI specialists (who are hard to find and rarely needed full-time). We come as a complete unit — architects, engineers, all the tooling — and deliver while the client stays focused on their core business. Same caliber as leading global outsourcing firms, directly, without the consultancy overhead.
+
+### 6. Architect-Led, Not Sales-Driven
+An architect leads your project. Not a sales team. From first call to production. Every project gets an architect. Every decision gets challenged.
+
+We value the customer's time in the face of a flood of sales-driven proposals on the market.
+
+### 7. Full Transparency
+Transparency in estimates, timelines, and process. The client constantly knows what's happening. Daily updates, weekly reports, sprint calls, and milestone demos. Our PMs and BAs are always there and promptly addressing all client questions.
+
+### 8. Security & Compliance
+Security and compliance are built into the architecture from day one — data residency, access controls, audit trails, and model governance are not afterthoughts. We align tools and infrastructure with the client's requirements, including on-prem deployment where needed. When the solution must meet GDPR, HIPAA, or other regulatory standards, it's designed for that from the start.
+
+### 9. Long-Term Partnership
+After extensive experience in outsourcing companies, on both sides — vendor and client — we understood the needs of companies that turn to outsourcing, and how to approach these needs to bring maximum value.
+
+We don't disappear after project handover. Post-project availability for questions, consultancy on new directions, and corporate training.
 
 ---
 

@@ -1,14 +1,12 @@
-> Part of [RemiLink Strategy](../index.md). Updated 27.03.2026.
+> Part of [RemiLink Strategy](../index.md). Status: APPROVED. Updated 01.04.2026.
 
 # ICP & Buyer Personas
 
 ## Target Companies
 
-**Primary**: Mid-sized and larger companies with complex product catalogs and/or real operational complexity.
+**Overall ICP**: Mid-sized and larger companies (100-2,000 employees) with complex product catalogs and/or real operational complexity. Size is a proxy; complexity is the real qualifier.
 
-Why complexity over headcount: A 150-person auto parts retailer with 50,000 SKUs is a better fit than a 5,000-person company selling 3 products. Company size is a proxy; complexity is the real qualifier. "And/or" is deliberate — e-commerce clients have catalog complexity, in-house AI clients have operational complexity, some have both.
-
-**Ideal**: Large companies (500+ employees) where long-term, larger-scale solutions are needed — sustained engagement rather than quick POCs.
+**Ideal**: Large companies (500-1,000 employees) where long-term, larger-scale solutions are needed. The ideal scenario is a sustained engagement rather than quick POCs.
 
 ## Geographic Focus
 
@@ -30,15 +28,18 @@ Why US first:
 | Role | Context |
 |---|---|
 | CTO | Core evaluator and buyer across all offerings |
-| VP of Engineering / Engineering Manager | E-commerce ICP, technical evaluation |
-| Product Owner / Product Manager | Discovery, e-commerce, audit discussions |
-| CEO / Founder | AI audit, early-stage conversations |
+| VP of Engineering / Engineering Manager | Technical need |
+| Product Owner / Product Manager | Discovery, audit discussions, product opportunity |
+| CEO / Founder | AI audit, product opportunity, early-stage conversations |
 
 ## Client Types
 
-1. **E-commerce** — Specialized online stores with complex catalogs seeking AI search/assistants. Trigger: competitors have AI, search is primitive.
-2. **Security-sensitive orgs** — Companies with strict data policies needing in-house AI. Trigger: corporate policy prohibits external AI vendors.
-3. **AI-curious** — Companies new to AI, don't know where to start. Trigger: want to explore feasibility.
+| Type | Description | Trigger | Example |
+|---|---|---|---|
+| **E-commerce** | Specialized online stores with complex catalogs seeking AI shopping/search assistants | Competitors have AI, search is primitive | Auto parts, building materials, clothing, cosmetics |
+| **Security-sensitive orgs** | Companies with strict data policies needing in-house AI | Corporate policy prohibits external AI vendors | Finance, healthcare, insurance (50-1,000+ employees) |
+| **EdTech** | Education companies looking for AI to improve learning outcomes or operations | Growing competition, need for personalization | Online schools, e-learning platforms |
+| **AI-curious** | Companies new to AI, don't know where to start | Want to explore feasibility, board pressure, competitors moving | Any industry with complex operations |
 
 ## Psychographic Profile
 
@@ -46,11 +47,12 @@ Why US first:
 
 ## Buyer Fears
 
-- Spending budget on a prototype that never reaches production
-- Long timelines and high costs scaring stakeholders
+- Picking the wrong partner for owners
+- Being responsible for picking the wrong partner for the decision makers
+- Spending time and budget on a prototype that never reaches production
+- Long timelines and high costs
 - Getting slide decks instead of working systems
-- Picking the wrong partner
 
 ## Vendor Selection Process
 
-Founder explicitly states: "I have no idea." Needs research or client interviews.
+Needs research or client interviews. Founder explicitly says "I have no idea" how buyers actually select vendors. This is a critical gap to close before scaling outreach.

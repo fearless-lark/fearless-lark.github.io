@@ -21,21 +21,34 @@ copyright: Copyright &copy; Remilink
 nav:
   - Home: index.md
   - Strategy:
-      - Positioning: strategy/positioning.md
-      - Services: strategy/services.md
-      - ICP: strategy/icp.md
-      - Go-to-Market: strategy/gtm.md
-      - Lead Generation: strategy/leadgen.md
-      - SMM: strategy/smm.md
-      - Competitors: strategy/competitors.md
-      - Gaps & Open Items: strategy/gaps-and-open.md
+      - 1. Positioning: strategy/positioning.md
+      - 2. Services: strategy/services.md
+      - 3. ICP: strategy/icp.md
+      - 4. Verticals: strategy/verticals.md
+      - 5. Go-to-Market: strategy/gtm.md
+      - 6. SMM: strategy/smm.md
+      - 7. Outreach: strategy/outreach.md
+      - 8. Competitors: strategy/competitors.md
+      - 9. Gaps & Open Items: strategy/gaps-and-open.md
   - Website:
-      - Spec: website/spec.md
-      - Design Brief: website/design-brief.md
-      - Backlog: website/backlog.md
-  - Ideas & Todos: ideas.md
+      - 1. Spec: website/spec.md
+      - 2. Design Brief: website/design-brief.md
+      - 3. Backlog: website/backlog.md
+  - Ideas & Todos:
+      - Overview: ideas/index.md
+      - 1. Business & Sales: ideas/business-and-sales.md
+      - 2. Offerings & Packaging: ideas/offerings-and-packaging.md
+      - 3. Delivery Model & Economics: ideas/delivery-model-and-economics.md
+      - 4. Content & Marketing: ideas/content-and-marketing.md
+      - 5. Website & Brand: ideas/website-and-brand.md
+      - 6. Internal Tooling: ideas/internal-tooling.md
+      - 7. Strategic Thesis: ideas/strategic-thesis.md
+      - 8. Proof & Case Studies: ideas/proof-and-case-studies.md
+      - 9. Unresolved Founder Tensions: ideas/unresolved-founder-tensions.md
+      - 10. Post-Launch: ideas/post-launch.md
+      - 11. Explicitly Deferred: ideas/explicitly-deferred.md
   - Reference:
-      - Founder Notes: reference/founder-notes.md
-      - Founder Brief (Answered): reference/founder-brief-answered.md
-      - Telegram Pipeline: reference/telegram-pipeline.md
-      - Voice Drafting System: reference/voice-drafting-system.md
+      - 1. Founder Notes: reference/founder-notes.md
+      - 2. Founder Brief (Answered): reference/founder-brief-answered.md
+      - 3. Telegram Pipeline: reference/telegram-pipeline.md
+      - 4. Voice Drafting System: reference/voice-drafting-system.md
