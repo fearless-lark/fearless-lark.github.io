@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 30.03.2026.
+> Part of [RemiLink Strategy](../index.md). Updated 31.03.2026.
 
 # Social Media Management Strategy
 
@@ -6,11 +6,9 @@
 
 - **Founder's personal page**: High-quality posts, 1x/week or every 2 weeks
 - **Persona accounts**: 3 posts/week each; must feel like real people (developer, PM, BA, domain expert), not salespeople. Each needs a backstory. Initially focused on e-commerce and EdTech.
-- **Outreach**: Contact database building (Clay, Apollo, LinkedIn Helper, or alternatives — not committed). Automated messaging.
 - **Content philosophy**: Value and trust, not frequency. "We are not news channels."
 - **Comment engagement**: Part of the content routine, not just posting.
 
-/note the **Outreach** has to be a part of an Outreach document not SMM
 
 ## Content Strategy
 

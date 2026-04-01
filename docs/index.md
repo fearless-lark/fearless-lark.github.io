@@ -8,8 +8,9 @@
 4. [Verticals](strategy/verticals.md) — Domain focus areas (e-commerce, in-house AI, EdTech)
 5. [Go-to-Market](strategy/gtm.md) — How we reach them, CTA, content plan
 6. [SMM](strategy/smm.md) — LinkedIn strategy and content plan
-7. [Competitors](strategy/competitors.md) — How we differentiate
-8. [Gaps & Open Items](strategy/gaps-and-open.md) — What's honest, what's unresolved
+7. [Outreach](strategy/outreach.md) — Lead generation, database building, response tracking
+8. [Competitors](strategy/competitors.md) — How we differentiate
+9. [Gaps & Open Items](strategy/gaps-and-open.md) — What's honest, what's unresolved
 
 ## Website (for building)
 

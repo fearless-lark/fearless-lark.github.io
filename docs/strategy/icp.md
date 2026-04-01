@@ -1,4 +1,4 @@
-> Part of [RemiLink Strategy](../index.md). Updated 30.03.2026.
+> Part of [RemiLink Strategy](../index.md). Updated 31.03.2026.
 
 # ICP & Buyer Personas
 
@@ -34,12 +34,12 @@ Why US first:
 
 ## Client Types
 
-1. **E-commerce** — Specialized online stores with complex catalogs seeking AI shopping/search assistants. Trigger: competitors have AI, search is primitive.
-2. **Security-sensitive orgs** — Companies with strict data policies needing in-house AI. Trigger: corporate policy prohibits external AI vendors.
-3. **AI-curious** — Companies new to AI, don't know where to start. Trigger: want to explore feasibility.
-
-/note Make clients types in a table format
-/note Add adtech type of client
+| Type | Description | Trigger | Example |
+|---|---|---|---|
+| **E-commerce** | Specialized online stores with complex catalogs seeking AI shopping/search assistants | Competitors have AI, search is primitive | Auto parts, building materials, clothing, cosmetics |
+| **Security-sensitive orgs** | Companies with strict data policies needing in-house AI | Corporate policy prohibits external AI vendors | Finance, healthcare, insurance (50-1,000+ employees) |
+| **EdTech** | Education companies looking for AI to improve learning outcomes or operations | Growing competition, need for personalization | Online schools, e-learning platforms |
+| **AI-curious** | Companies new to AI, don't know where to start | Want to explore feasibility, board pressure, competitors moving | Any industry with complex operations |
 
 ## Psychographic Profile
 
@@ -48,11 +48,11 @@ Why US first:
 ## Buyer Fears
 
 - Picking the wrong partner for owners
-- And be responsible for picking the wrong partner for the decision makers
+- Being responsible for picking the wrong partner for the decision makers
 - Spending time and budget on a prototype that never reaches production
 - Long timelines and high costs
 - Getting slide decks instead of working systems
 
 ## Vendor Selection Process
 
-/note Needs research or client interviews.
+Needs research or client interviews. Founder explicitly says "I have no idea" how buyers actually select vendors. This is a critical gap to close before scaling outreach.

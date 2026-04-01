@@ -2,6 +2,8 @@
 
 # Gaps and Open Items
 
+Pre-launch checkpoint. Check before making content or design decisions.
+
 ## Honest Gaps
 1. **Thin social proof** — Most case studies under NDA; most experience in classical ML/CV/NLP, not LLM/agents
 2. **EdTech expertise unclear** — "We are not really experts in this sphere"
@@ -18,6 +20,9 @@
 - [ ] Clarify brandbook status (are existing .docx files current?)
 - [ ] Review/update existing 4 blog articles
 - [ ] CTA wording has to be still improved
+- [ ] Vendor selection process research — how do enterprise buyers actually choose AI vendors? (see [icp.md](icp.md#vendor-selection-process))
+- [ ] US/EU pricing framing — how to position $15K/mo as a deal (hiring a team costs 3-5x more)
+- [ ] Sales pipeline draft (in gtm.md) — needs founder review and refinement
 
 ### Resolved
 - [x] Company-size target → complexity over headcount
@@ -43,5 +48,3 @@
 - Social media beyond LinkedIn
 - Computer Vision as a service line
 - Complex CRM integration
-
-/note think what is the actual puprose of this document, is it like a todo list or what?

@@ -4,15 +4,13 @@
 
 ## What remilink Is
 
-remilink is a founder-led AI implementation partner. We diagnose business problems, choose the right approach, validate it before the client overspends, and carry proven work through to production.
+remilink reduces the risk of AI investment. We validate solutions before you build them, and carry proven work through to production.
 
-/note we should avoid saying "is a founder-led AI implementation partner". its not just founder, and I don't think it's a good idea to build everything around a founder. This has to be reworked.
+The team is led by architects with deep academic background in mathematics and statistics, and 10+ years of hands-on AI/ML experience - from senior engineering through VP-level roles in both outsourcing firms and product companies. Every project gets a senior architect personally involved as the final decision-maker.
 
 **Brand name**: "Remi" = friend/helper. The company should feel approachable, trustworthy, and expert. Not corporate, aggressive, or hype-driven.
 
-**Tagline** (working): "Validate fast, scale smart."
-
-/note rework the tagline
+**Tagline**: "Validate first. Build right. Scale smart."
 
 **What we are NOT**:
 - A generic "we do everything" AI shop
@@ -24,57 +22,43 @@ remilink is a founder-led AI implementation partner. We diagnose business proble
 ## Positioning Pillars
 
 ### 1. Honest Expertise
-We know what NOT to build, when NOT to use an LLM, and how to keep the client from wasting money. "Value and trust, not hype."
+We know what NOT to build, when NOT to use an LLM, and how to keep the client from wasting money. Active budget protection during scoping.
 
-/note "Value and trust, not hype." is concerning the SMM strategy of the company - more like a slogan of the smm strategy. it should be removed from there.
+Example: "If we need to prove search works in a category, we do it for ONE category, not ten."
 
 ### 2. Validation Before Scale
-Prove the concept before the client commits to full engineering. Risk reduction is the #1 concern for enterprise buyers. Its especially important for the AI projects when there is always a lot of uncertancy, and before we do tests we can rarely know if the expected quality of the solution is reacheable (if the data is good enough, is the custom model training will be required, etc.).
-
-/note shortly the idea can be described approximately as "We validate before we build. You don't pay for what won't work."
-
+We validate before we build. You don't pay for what won't work. Risk reduction is the #1 concern for enterprise AI buyers because there is always uncertainty, and before we run tests we can rarely know if the expected quality is reachable and with what effort (is the data good enough, will custom model training be required, etc.).
 
 ### 3. AI-Native, Human-Owned Delivery
 Proprietary AI-driven workflows enable 15-20% faster development. But every piece of code is reviewed, validated, and tested by humans.
 
-We also have an experimental AI-driven workflows that show on our tests approx. 30-40% increase in the velocity speed. Altough, we recommend to use it only on the Concept Validation phases at this stage.
+We also offer experimental AI-driven workflows that show approximately 30-40% increase in velocity.*
+
+*Currently scoped to Concept Validation phases only.
 
 ### 4. Data Engineering Done Right
-AI solutions are only as good as the data pipelines underneath. We apply data engineering best practices as the foundation. That something that is not on the surface, and many competitors skip or do poorly.
+AI solutions are only as good as the data pipelines underneath. We apply data engineering best practices as the foundation. This is not on the surface, and many competitors skip or do it poorly.
 
-### 5. Team Expertise at Individual Prices
-Even on 1–2–3 person projects, the client gets access to the full bench of senior experts - engineers and architects across all AI disciplines. You pay for a small team but get the collective judgment of the whole house.
+### 5. Expert Team, No Overhead
+The client hires us to build a project. We assemble the right team — sometimes 1-2 engineers, sometimes more. But regardless of team size, every project gets the full bench of senior AI architects reviewing decisions, at no extra cost.
 
-/note in other words:
-You hire 2 engineers. You get a team of architects behind them.
-Every project is reviewed by our full team of senior AI architects, at no extra cost.
+This means the client doesn't need to recruit, hire, or manage AI specialists (who are hard to find and rarely needed full-time). We come as a complete unit — architects, engineers, all the tooling — and deliver while the client stays focused on their core business. Same caliber as leading global outsourcing firms, directly, without the consultancy overhead.
 
-/note add a value here that the company doesn't need to hire the engineering team and architects (that are usually needed not full time) in order to build a solution. it's hard to find them, plus you need to manage them. in our case they just hire a team of profeccionals, that has all the knowladge and all the tools, come to you, and professionaly build the solution while you are concentrating on your main direction in the buisnesses.
+### 6. Architect-Led, Not Sales-Driven
+An architect leads your project. Not a sales team. From first call to production. Every project gets an architect. Every decision gets challenged.
 
-/note perhaps this can also be related? or is it too harsh? - "Every project gets an architect. Every decision gets challenged."
+We value the customer's time in the face of a flood of sales-driven proposals on the market.
 
-### 6. Founder-Led Credibility
-BSc pure mathematics, MSc theoretical/applied statistics, 10+ years in AI/ML. Previous roles: Senior → Lead → Architect (outsourcing), Architect → Engineering Manager → VP of Data Science (product). Personally involved in every project as chief architect and final decision-maker.
+### 7. Full Transparency
+Transparency in estimates, timelines, and process. The client constantly knows what's happening. Daily updates, weekly reports, sprint calls, and milestone demos. Our PMs and BAs are always there and promptly addressing all client questions.
 
-/note I wouldn't specify specifically "BSc pure mathematics, MSc theoretical/applied statistics" but would rather mention that as a background.
+### 8. Security & Compliance
+Security and compliance are built into the architecture from day one — data residency, access controls, audit trails, and model governance are not afterthoughts. We align tools and infrastructure with the client's requirements, including on-prem deployment where needed. When the solution must meet GDPR, HIPAA, or other regulatory standards, it's designed for that from the start.
 
-### 7. Security First
-**Enterprise tooling flexibility**: we always align tools and models with the client (AI-driven workflows), including on-prem where required.
+### 9. Long-Term Partnership
+After extensive experience in outsourcing companies, on both sides — vendor and client — we understood the needs of companies that turn to outsourcing, and how to approach these needs to bring maximum value.
 
-/note that we develop HIPPA/GDPR and ISO 42001-complined solutions
-
-/note think what should be stated here that is the most important for US and EU customers in our specifics
-
-
-### 8.
-
-/note there are a few other pillars that has to be added or incorporated:
-1. After extensive experience in outsourcing companies, on both sides — vendor and client — we understood the needs of companies that turn to outsourcing, and how to approach these needs to bring maximum value."
-2. "Our team comes from firms where these projects cost 3-4x more. Same engineers. Same standards. Direct engagement, no corporate overhead." or "Our team built AI solutions at leading global outsourcing firms. Now we deliver the same caliber of work — directly, without the overhead of a large consultancy." or "Enterprise AI expertise. Without the enterprise price tag."
-3. we highly appreciate customers time in our face-pace time and flood of sales-driven proposals on the market. that's why one of our value propositions is "An architect leads your project. Not a sales team. From first call to production."
-4. An important pillar is our full transperancy guaranty in the project development. We have a project development and delivery methodology that makes sure that "The client constantly knows what's happening". We have daily updates, weekly reports, sprint calls, and milestone demos. Our PMs and BAs are always there and promptly addressing all the clients question. We can call it like "Transparency in estimates, timelines, and process".
-5. We are not getting lost after the project handover. Post-project availability for questions. Availability for consultancy on the new potential directions for a company, corporate tranings, etc.
-6. Active budget protection during scoping. Example: "If we need to prove search works in a category, we do it for ONE category, not ten.". That's another pillar that is related to the scoping of the Concept Validation scope durning the Discovery Stage mainly.
+We don't disappear after project handover. Post-project availability for questions, consultancy on new directions, and corporate training.
 
 ---
 
